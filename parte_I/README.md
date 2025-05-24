@@ -34,8 +34,10 @@ INSIGHTHUNTERS_ETL_TEMPO/
 │   └── detalhes_feriado_2023_2024_2025.csv 
 ├── scripts/
 │   └── cria_Dim_Tempo.sql          
-└── output/
-    └── INSIGHTHUNTERS_dados_processados.CSV
+├── output/
+│    └── INSIGHTHUNTERS_dados_processados.CSV
+└── adf/
+    └── (pasta do Azure Data Fatory)
 ```
 
 ---
@@ -132,16 +134,3 @@ CREATE TABLE VB_DIM_TEMPO_INSIGHTHUNTERS (
    FROM VB_DIM_TEMPO_INSIGHTHUNTERS;
    ```
 4. Analise o arquivo gerado em `output/INSIGHTHUNTERS_dados_processados.csv`.  
-
----
-
-## 👥 Equipe INSIGHTHUNTERS
-
-| Nome                                      | RM     |
-| ----------------------------------------- | ------ |
-| Diego Alves Moreira                       | 55260  |
-| João Pedro de Souza Nunes                 | 554066 |
-| Guilherme Yuiti Matsushita Nakamura       | 85355  |
-
-**Professores Orientadores:**  
-- Salvio Padlipskas  
