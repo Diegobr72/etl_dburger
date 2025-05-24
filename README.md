@@ -26,16 +26,16 @@ Construir a dimensão temporal completa, enriquecida com informações de feriad
 
 ```
 INSIGHTHUNTERS_ETL_TEMPO/
-├── README.md                       # Este arquivo
+├── README.md                       
 ├── docs/
-│   └── INSIGHTHUNTERS_ETL_TEMPO.docx  # Documentação técnica com screenshots
+│   └── INSIGHTHUNTERS_ETL_TEMPO.docx  
 ├── data/
-│   ├── calendario_2023_2024_2025.xlsx # Base de datas e feriados
-│   └── detalhes_feriado_2023_2024_2025.csv # Detalhes complementares dos feriados
+│   ├── calendario_2023_2024_2025.xlsx 
+│   └── detalhes_feriado_2023_2024_2025.csv 
 ├── scripts/
-│   └── cria_Dim_Tempo.sql           # Script SQL de criação da tabela destino
+│   └── cria_Dim_Tempo.sql          
 └── output/
-    └── INSIGHTHUNTERS_dados_processados.xlsx # Resultado final da carga ETL
+    └── INSIGHTHUNTERS_dados_processados.CSV
 ```
 
 ---
@@ -58,29 +58,29 @@ INSIGHTHUNTERS_ETL_TEMPO/
 
 Execute o script `scripts/cria_Dim_Tempo.sql` para criar a tabela `VB_DIM_TEMPO_INSIGHTHUNTERS`:
 
-\`\`\`sql
+```sql
 CREATE TABLE VB_DIM_TEMPO_INSIGHTHUNTERS (
-    sk_tempo NUMERIC PRIMARY KEY,
-    nm_grupo VARCHAR(30),
-    dt_evento DATE,
-    nr_ano NUMERIC(4),
-    nr_mes NUMERIC(2),
-    nm_mes VARCHAR(15),
-    nr_dia NUMERIC,
-    nr_dia_semana NUMERIC(1),
-    nm_dia_semana_extenso VARCHAR(20),
-    nr_semestre NUMERIC(1),
-    ds_semestre VARCHAR(30),
-    ds_semestre_ano VARCHAR(40),
-    nr_trimestre NUMERIC(1),
-    ds_trimestre VARCHAR(30),
-    nm_estacao_ano VARCHAR(30),
-    ds_dia_util_feriado VARCHAR(12),
-    ds_fim_semana VARCHAR(3),
-    ds_data_extenso VARCHAR(60),
-    dt_carga DATE
+     sk_tempo NUMERIC (28) NOT NULL , 
+     nm_grupo VARCHAR (30) NOT NULL , 
+     dt_evento DATETIME NOT NULL , 
+     nr_ano NUMERIC (4) NOT NULL , 
+     nr_mes NUMERIC (2) NOT NULL , 
+     nm_mes VARCHAR (15) NOT NULL , 
+     nr_dia NUMERIC (28) NOT NULL , 
+     nr_dia_semana NUMERIC (1) NOT NULL , 
+     nm_dia_semana_extenso VARCHAR (20) NOT NULL , 
+     nr_semestre NUMERIC (1) NOT NULL , 
+     ds_semestre VARCHAR (30)NOT NULL , 
+     ds_semestre_ano VARCHAR (40) NOT NULL , 
+     nr_trimestre NUMERIC (1) NOT NULL , 
+     ds_trimestre VARCHAR (30) NOT NULL , 
+     nm_estacao_ano VARCHAR (30) NOT NULL , 
+     ds_dia_util_feriado VARCHAR (13) NOT NULL , 
+     ds_fim_semana VARCHAR (3) NOT NULL , 
+     ds_data_extenso VARCHAR (60) , 
+     dt_carga DATETIME 
 );
-\`\`\`
+```
 
 ---
 
@@ -118,7 +118,7 @@ CREATE TABLE VB_DIM_TEMPO_INSIGHTHUNTERS (
   - Evidências da carga na tabela  
   - Identificação da equipe (nomes e RMs)  
 - **Arquivo de Saída**  
-  - `output/INSIGHTHUNTERS_dados_processados.xlsx`: dados resultantes após execução do pipeline  
+  - `output/INSIGHTHUNTERS_dados_processados.CSV`: dados resultantes após execução do pipeline  
 
 ---
 
@@ -127,10 +127,10 @@ CREATE TABLE VB_DIM_TEMPO_INSIGHTHUNTERS (
 1. Execute o pipeline diretamente no Azure Data Factory.  
 2. Monitore as atividades e valide a execução.  
 3. Verifique os dados no banco com:
-   \`\`\`sql
+   ```sql
    SELECT TOP 10 * 
    FROM VB_DIM_TEMPO_INSIGHTHUNTERS;
-   \`\`\`
+   ```
 4. Analise o arquivo gerado em `output/INSIGHTHUNTERS_dados_processados.xlsx`.  
 
 ---
