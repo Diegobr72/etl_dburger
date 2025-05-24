@@ -1,0 +1,211 @@
+{
+	"name": "dim_tempo",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "caledario",
+						"type": "DatasetReference"
+					},
+					"name": "dadosXML"
+				},
+				{
+					"dataset": {
+						"referenceName": "feriado",
+						"type": "DatasetReference"
+					},
+					"name": "dadosCSV"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "saidaCSV",
+						"type": "DatasetReference"
+					},
+					"name": "SaidaCSV"
+				},
+				{
+					"dataset": {
+						"referenceName": "V_DIM_TEMPO_INSIGHTHUNTERS",
+						"type": "DatasetReference"
+					},
+					"name": "SaidaSQL"
+				}
+			],
+			"transformations": [
+				{
+					"name": "joinCalendarioFeriados"
+				},
+				{
+					"name": "renomearColunas"
+				},
+				{
+					"name": "coverteColuna"
+				},
+				{
+					"name": "criandoColuna"
+				},
+				{
+					"name": "dsdataextensosEdtcarga"
+				},
+				{
+					"name": "OrdenandoDImTempo"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          sequenciacalendario as string,",
+				"          calendario as string,",
+				"          feriado as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: true,",
+				"     ignoreNoFilesFound: false) ~> dadosXML",
+				"source(output(",
+				"          seqferiado as string,",
+				"          dataferiado as string,",
+				"          diasemana as string,",
+				"          descricaoferiado as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> dadosCSV",
+				"dadosXML, dadosCSV join(sequenciacalendario == seqferiado,",
+				"     joinType:'left',",
+				"     matchType:'exact',",
+				"     ignoreSpaces: false,",
+				"     broadcast: 'auto')~> joinCalendarioFeriados",
+				"joinCalendarioFeriados select(mapColumn(",
+				"          sk_tempo = sequenciacalendario,",
+				"          dt_evento = calendario,",
+				"          feriado,",
+				"          seqferiado,",
+				"          dataferiado,",
+				"          diasemana,",
+				"          ds_feriado = descricaoferiado",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> renomearColunas",
+				"renomearColunas cast(output(",
+				"          sk_tempo as integer,",
+				"          dt_evento as timestamp 'yyyy-MM-dd'",
+				"     ),",
+				"     errors: true) ~> coverteColuna",
+				"coverteColuna derive(nm_grupo = iif(sk_tempo == 1, 'INSIGHTHUNTERS', 'INSIGHTHUNTERS'),",
+				"          nr_ano = year(dt_evento),",
+				"          nr_mes = month(dt_evento),",
+				"          nm_mes = iif(month(dt_evento) == 1, 'Janeiro',\r",
+				"iif(month(dt_evento) == 2, 'Fevereiro',\r",
+				"iif(month(dt_evento) == 3, 'Março',\r",
+				"iif(month(dt_evento) == 4, 'Abril',\r",
+				"iif(month(dt_evento) == 5, 'Maio',\r",
+				"iif(month(dt_evento) == 6, 'Junho',\r",
+				"iif(month(dt_evento) == 7, 'Julho',\r",
+				"iif(month(dt_evento) == 8, 'Agosto',\r",
+				"iif(month(dt_evento) == 9, 'Setembro',\r",
+				"iif(month(dt_evento) == 10, 'Outubro',\r",
+				"iif(month(dt_evento) == 11, 'Novembro',\r",
+				"'Dezembro'))))))))))),",
+				"          nr_dia = dayOfMonth(dt_evento),",
+				"          nr_dia_semana = dayOfWeek(dt_evento),",
+				"          nm_dia_semana_extenso = iif(dayOfWeek(dt_evento) == 1, 'Domingo',\r",
+				"iif(dayOfWeek(dt_evento) == 2, 'Segunda-Feira',\r",
+				"iif(dayOfWeek(dt_evento) == 3, 'Terça-Feira',\r",
+				"iif(dayOfWeek(dt_evento) == 4, 'Quarta-Feira',\r",
+				"iif(dayOfWeek(dt_evento) == 5, 'Quinta-Feira',\r",
+				"iif(dayOfWeek(dt_evento) == 6, 'Sexta-Feira',\r",
+				"'Sábado')))))),",
+				"          nr_semestre = iif(month(dt_evento) <= 6, 1, 2),",
+				"          ds_semestre = iif(month(dt_evento) <= 6, '1º Semestre', '2º Semestre'),",
+				"          ds_semestre_ano = iif(month(dt_evento) <= 6, '1º Semestre/' + toString(year(dt_evento)), '2º Semestre/' + toString(year(dt_evento))),",
+				"          nr_trimestre = iif(month(dt_evento) <= 3, 1, \r",
+				"    iif(month(dt_evento) <= 6, 2, \r",
+				"        iif(month(dt_evento) <= 9, 3, 4)\r",
+				"    )\r",
+				"),",
+				"          ds_trimestre = iif(month(dt_evento) <= 3, '1º Trimestre', \r",
+				"    iif(month(dt_evento) <= 6, '2º Trimestre', \r",
+				"        iif(month(dt_evento) <= 9, '3º Trimestre', '4º Trimestre')\r",
+				"    )\r",
+				"),",
+				"          nm_estacao_ano = iif(\r",
+				"    month(dt_evento) == 12 || month(dt_evento) == 1 || month(dt_evento) == 2, 'Verão',\r",
+				"    iif(\r",
+				"        month(dt_evento) == 3 || month(dt_evento) == 4 || month(dt_evento) == 5, 'Outono',\r",
+				"        iif(\r",
+				"            month(dt_evento) == 6 || month(dt_evento) == 7 || month(dt_evento) == 8, 'Inverno',\r",
+				"            'Primavera'\r",
+				"        )\r",
+				"    )\r",
+				"),",
+				"          ds_dia_util_feriado = iif((dayOfWeek(dt_evento) >= 2 && dayOfWeek(dt_evento) <= 6),\"DIA ÚTIL\",iif(feriado == 'S', \"FERIADO\", \"FIM DE SEMANA\")),",
+				"          ds_fim_semana = iif((dayOfWeek(dt_evento) >= 2 && dayOfWeek(dt_evento) <= 6), \"NÃO\", 'SIM')) ~> criandoColuna",
+				"criandoColuna derive(ds_data_extenso = concat(nm_dia_semana_extenso + \" , \" + toString(nr_dia) + \" de \" + nm_mes + \" de \" + toString(nr_ano)),",
+				"          dt_carga = currentUTC()) ~> dsdataextensosEdtcarga",
+				"dsdataextensosEdtcarga select(mapColumn(",
+				"          sk_tempo,",
+				"          nm_grupo,",
+				"          dt_evento,",
+				"          nr_ano,",
+				"          nr_mes,",
+				"          nm_mes,",
+				"          nr_dia,",
+				"          nr_dia_semana,",
+				"          nm_dia_semana_extenso,",
+				"          nr_semestre,",
+				"          ds_semestre,",
+				"          ds_semestre_ano,",
+				"          nr_trimestre,",
+				"          ds_trimestre,",
+				"          nm_estacao_ano,",
+				"          ds_dia_util_feriado,",
+				"          ds_fim_semana,",
+				"          ds_data_extenso,",
+				"          dt_carga",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> OrdenandoDImTempo",
+				"OrdenandoDImTempo sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     partitionFileNames:['d-data.csv'],",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     partitionBy('hash', 1)) ~> SaidaCSV",
+				"OrdenandoDImTempo sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          sk_tempo as decimal(28,0),",
+				"          nm_grupo as string,",
+				"          dt_evento as date,",
+				"          nr_ano as decimal(4,0),",
+				"          nr_mes as decimal(2,0),",
+				"          nm_mes as string,",
+				"          nr_dia as decimal(28,0),",
+				"          nr_dia_semana as decimal(1,0),",
+				"          nm_dia_semana_extenso as string,",
+				"          nr_semestre as decimal(1,0),",
+				"          ds_semestre as string,",
+				"          ds_semestre_ano as string,",
+				"          nr_trimestre as decimal(1,0),",
+				"          ds_trimestre as string,",
+				"          nm_estacao_ano as string,",
+				"          ds_dia_util_feriado as string,",
+				"          ds_fim_semana as string,",
+				"          ds_data_extenso as string,",
+				"          dt_carga as timestamp",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError') ~> SaidaSQL"
+			]
+		}
+	}
+}
