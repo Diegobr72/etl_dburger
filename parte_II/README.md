@@ -110,21 +110,3 @@ INSIGHTHUNTERS_ETL_FAIXA_ETARIA/
 1. **docs/1_evidencias.docx**: Capturas de tela do recurso de Blob Storage.
 2. **docs/2_evidencias.docx**: Capturas de tela da criação e estrutura do Azure SQL.
 3. **docs/3_evidencias.docx**: Fluxo completo do pipeline ADF e resultados antes e depois da carga.
-
----
-
-### 👥 Autores
-
-- Diego Alves Moreira (RM: XXXXX) – Analista de Dados – InsigthHunters
-
----
-
-### 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-#### Contato
-
-Para dúvidas ou contribuições, abra uma *issue* ou contate: diego.moreira@example.com
