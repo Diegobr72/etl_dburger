@@ -1,4 +1,4 @@
-# 🕒 Projeto ETL - Dimensão Tempo | DBurger (INSIGHTHUNTERS)
+# 🕒 Projeto ETL - Dimensão Tempo | DBurger Parte I
 
 Este repositório documenta o desenvolvimento do processo de ETL da dimensão tempo **VB_DIM_TEMPO_INSIGHTHUNTERS**, implementado no **Azure SQL Database** por meio do **Azure Data Factory (ADF)**.  
 O projeto foi desenvolvido como parte do 3º checkpoint da disciplina, atendendo às necessidades analíticas da hamburgueria **DBurger Parte I** para a estruturação do seu Data Mart comercial.
@@ -118,7 +118,7 @@ CREATE TABLE VB_DIM_TEMPO_INSIGHTHUNTERS (
   - Evidências da carga na tabela  
   - Identificação da equipe (nomes e RMs)  
 - **Arquivo de Saída**  
-  - `output/INSIGHTHUNTERS_dados_processados.CSV`: dados resultantes após execução do pipeline  
+  - `output/INSIGHTHUNTERS_dados_processados.csv`: dados resultantes após execução do pipeline  
 
 ---
 
@@ -131,7 +131,7 @@ CREATE TABLE VB_DIM_TEMPO_INSIGHTHUNTERS (
    SELECT TOP 10 * 
    FROM VB_DIM_TEMPO_INSIGHTHUNTERS;
    ```
-4. Analise o arquivo gerado em `output/INSIGHTHUNTERS_dados_processados.xlsx`.  
+4. Analise o arquivo gerado em `output/INSIGHTHUNTERS_dados_processados.csv`.  
 
 ---
 
