@@ -28,7 +28,7 @@ Este repositório consolida as duas etapas do projeto acadêmico desenvolvido pa
 
 ---
 
-## 👥 Equipe INSIGHTHUNTERS
+## 👥 Equipe INSIGHT HUNTERS
 
 | Nome                                      | RM     |
 | ----------------------------------------- | ------ |
