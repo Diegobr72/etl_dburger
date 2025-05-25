@@ -1,0 +1,9 @@
+{
+	"name": "dfdburgerrm554066",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0dd21920-0dc7-4e50-a8ac-57be714e1985",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
