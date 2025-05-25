@@ -1,0 +1,48 @@
+{
+	"name": "VB_FTO_VENDA_INSIGHTHUNTERS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Banco SQL Server",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "sk_cliente",
+				"type": "decimal",
+				"precision": 28,
+				"scale": 0
+			},
+			{
+				"name": "sk_faixa_etaria",
+				"type": "decimal",
+				"precision": 28,
+				"scale": 0
+			},
+			{
+				"name": "qt_total_vendida",
+				"type": "decimal",
+				"precision": 8,
+				"scale": 2
+			},
+			{
+				"name": "vl_total_venda",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "qt_idade_cliente",
+				"type": "decimal",
+				"precision": 3,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "VB_FTO_VENDA_INSIGHTHUNTERS"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,40 @@
+{
+	"name": "VB_DIM_FAIXA_ETARIA_INSIGHTHUNTERS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Banco SQL Server",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "sk_faixa_etaria",
+				"type": "decimal",
+				"precision": 28,
+				"scale": 0
+			},
+			{
+				"name": "ds_faixa_etaria",
+				"type": "varchar"
+			},
+			{
+				"name": "qt_idade_inicial",
+				"type": "decimal",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "qt_idade_final",
+				"type": "decimal",
+				"precision": 3,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "VB_DIM_FAIXA_ETARIA_INSIGHTHUNTERS"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

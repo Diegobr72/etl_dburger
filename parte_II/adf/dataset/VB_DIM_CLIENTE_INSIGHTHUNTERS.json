@@ -1,0 +1,80 @@
+{
+	"name": "VB_DIM_CLIENTE_INSIGHTHUNTERS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Banco SQL Server",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "sk_cliente",
+				"type": "decimal",
+				"precision": 28,
+				"scale": 0
+			},
+			{
+				"name": "cd_cliente",
+				"type": "decimal",
+				"precision": 28,
+				"scale": 0
+			},
+			{
+				"name": "nm_cliente",
+				"type": "varchar"
+			},
+			{
+				"name": "nr_cpf",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 0
+			},
+			{
+				"name": "ds_sexo",
+				"type": "varchar"
+			},
+			{
+				"name": "dt_nascimento",
+				"type": "date"
+			},
+			{
+				"name": "ds_escolaridade",
+				"type": "varchar"
+			},
+			{
+				"name": "ds_estado_civil",
+				"type": "varchar"
+			},
+			{
+				"name": "nm_estado",
+				"type": "varchar"
+			},
+			{
+				"name": "sg_estado",
+				"type": "char"
+			},
+			{
+				"name": "nm_cidade",
+				"type": "varchar"
+			},
+			{
+				"name": "nm_bairro",
+				"type": "varchar"
+			},
+			{
+				"name": "dt_inicio",
+				"type": "date"
+			},
+			{
+				"name": "dt_fim",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "VB_DIM_CLIENTE_INSIGHTHUNTERS"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

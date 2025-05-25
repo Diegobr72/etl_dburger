@@ -1,0 +1,69 @@
+{
+	"name": "saida_csv_clientes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Origem de Dados",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "dim_cliente.csv",
+				"container": "origem-dados"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "NR_CLIENTE",
+				"type": "String"
+			},
+			{
+				"name": "NM_CLIENTE",
+				"type": "String"
+			},
+			{
+				"name": "NR_CPF",
+				"type": "String"
+			},
+			{
+				"name": "FL_SEXO_BIOLOGICO",
+				"type": "String"
+			},
+			{
+				"name": "DT_NASCIMENTO",
+				"type": "String"
+			},
+			{
+				"name": "SG_ESTADO",
+				"type": "String"
+			},
+			{
+				"name": "NM_ESTADO",
+				"type": "String"
+			},
+			{
+				"name": "NM_CIDADE",
+				"type": "String"
+			},
+			{
+				"name": "NM_BAIRRO",
+				"type": "String"
+			},
+			{
+				"name": "VALOR_TOTAL",
+				"type": "String"
+			},
+			{
+				"name": "QUANTIDADE_TOTAL",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

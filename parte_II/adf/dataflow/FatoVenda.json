@@ -1,0 +1,131 @@
+{
+	"name": "FatoVenda",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "saida_csv_clientes",
+						"type": "DatasetReference"
+					},
+					"name": "clientesCSV"
+				},
+				{
+					"dataset": {
+						"referenceName": "VB_DIM_FAIXA_ETARIA_INSIGHTHUNTERS",
+						"type": "DatasetReference"
+					},
+					"name": "dimFXE"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "VB_FTO_VENDA_INSIGHTHUNTERS",
+						"type": "DatasetReference"
+					},
+					"name": "FatoVenda"
+				}
+			],
+			"transformations": [
+				{
+					"name": "CovertCliente"
+				},
+				{
+					"name": "Derivandocolunas"
+				},
+				{
+					"name": "CriandoChave"
+				},
+				{
+					"name": "JoinClientetoVenda"
+				},
+				{
+					"name": "SelectFTVenda"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          NR_CLIENTE as string,",
+				"          NM_CLIENTE as string,",
+				"          NR_CPF as string,",
+				"          FL_SEXO_BIOLOGICO as string,",
+				"          DT_NASCIMENTO as string,",
+				"          SG_ESTADO as string,",
+				"          NM_ESTADO as string,",
+				"          NM_CIDADE as string,",
+				"          NM_BAIRRO as string,",
+				"          VALOR_TOTAL as string,",
+				"          QUANTIDADE_TOTAL as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> clientesCSV",
+				"source(output(",
+				"          sk_faixa_etaria as decimal(28,0),",
+				"          ds_faixa_etaria as string,",
+				"          qt_idade_inicial as decimal(3,0),",
+				"          qt_idade_final as decimal(3,0)",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     format: 'table') ~> dimFXE",
+				"clientesCSV cast(output(",
+				"          NR_CLIENTE as integer '000',",
+				"          DT_NASCIMENTO as date 'yyyy-MM-dd',",
+				"          VALOR_TOTAL as float '###.##',",
+				"          QUANTIDADE_TOTAL as integer",
+				"     ),",
+				"     errors: true) ~> CovertCliente",
+				"CovertCliente derive(sk_cliente = iif(NR_CLIENTE==1, NR_CLIENTE, NR_CLIENTE),",
+				"          nr_cpf = toLong(replace(replace(replace(NR_CPF, '.', ''), '-', ''), ' ', '')),",
+				"          ds_sexo = iif(FL_SEXO_BIOLOGICO == 'M', \"Masculino\",iif(FL_SEXO_BIOLOGICO == 'F', \"Feminino\", \"Hermafrodita\")),",
+				"          ds_escolaridade = iif(NR_CLIENTE==1, \"Ensino Superior\", \"Ensino Superior\"),",
+				"          ds_estado_civil = iif(NR_CLIENTE==1, \"Solteiro\", \"Solteiro\"),",
+				"          dt_inicio = currentUTC(),",
+				"          dt_fim = iif(NR_CLIENTE==1, \" \", \" \"),",
+				"          nr_idade = toInteger((toTimestamp(currentDate()) - toTimestamp(DT_NASCIMENTO)) / (1000 * 60 * 60 * 24 * 365.25))) ~> Derivandocolunas",
+				"Derivandocolunas derive(sk_faixa_etaria = iif(nr_idade >= 0 && nr_idade <= 12, 1,\r",
+				"iif(nr_idade >= 13 && nr_idade <= 17, 2,\r",
+				"iif(nr_idade >= 18 && nr_idade <= 24, 3,\r",
+				"iif(nr_idade >= 25 && nr_idade <= 34, 4,\r",
+				"iif(nr_idade >= 35 && nr_idade <= 44, 5,\r",
+				"iif(nr_idade >= 45 && nr_idade <= 59, 6,\r",
+				"iif(nr_idade >= 60, 7, 99)))))))) ~> CriandoChave",
+				"CriandoChave, dimFXE join(CriandoChave@sk_faixa_etaria == dimFXE@sk_faixa_etaria,",
+				"     joinType:'left',",
+				"     matchType:'exact',",
+				"     ignoreSpaces: false,",
+				"     broadcast: 'auto')~> JoinClientetoVenda",
+				"JoinClientetoVenda select(mapColumn(",
+				"          sk_cliente,",
+				"          sk_faixa_etaria = dimFXE@sk_faixa_etaria,",
+				"          qt_total_vendida = QUANTIDADE_TOTAL,",
+				"          vl_total_venda = VALOR_TOTAL,",
+				"          qt_idade_cliente = nr_idade",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> SelectFTVenda",
+				"SelectFTVenda sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          sk_cliente as decimal(28,0),",
+				"          sk_faixa_etaria as decimal(28,0),",
+				"          qt_total_vendida as decimal(8,2),",
+				"          vl_total_venda as decimal(12,2),",
+				"          qt_idade_cliente as decimal(3,0)",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError') ~> FatoVenda"
+			]
+		}
+	}
+}

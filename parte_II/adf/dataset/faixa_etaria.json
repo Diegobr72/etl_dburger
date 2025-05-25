@@ -1,0 +1,39 @@
+{
+	"name": "faixa_etaria",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Origem de Dados",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Cadastro_FaixaEtaria",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "FaixaEtaria.xlsx",
+				"container": "origem-dados"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Sequência ",
+				"type": "String"
+			},
+			{
+				"name": "Descrição da Faixa Etária",
+				"type": "String"
+			},
+			{
+				"name": "Idade inicial",
+				"type": "String"
+			},
+			{
+				"name": "Idade final",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

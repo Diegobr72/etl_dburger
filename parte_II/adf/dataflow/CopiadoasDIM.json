@@ -1,0 +1,170 @@
+{
+	"name": "CopiadoasDIM",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "faixa_etaria",
+						"type": "DatasetReference"
+					},
+					"name": "faixaetaria"
+				},
+				{
+					"dataset": {
+						"referenceName": "saida_csv_clientes",
+						"type": "DatasetReference"
+					},
+					"name": "clientesCSV"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "VB_DIM_FAIXA_ETARIA_INSIGHTHUNTERS",
+						"type": "DatasetReference"
+					},
+					"name": "SQLFxE"
+				},
+				{
+					"dataset": {
+						"referenceName": "VB_DIM_CLIENTE_INSIGHTHUNTERS",
+						"type": "DatasetReference"
+					},
+					"name": "SQLCliente"
+				}
+			],
+			"transformations": [
+				{
+					"name": "CovertFxE"
+				},
+				{
+					"name": "SelectNomesFxE"
+				},
+				{
+					"name": "CovertCliente"
+				},
+				{
+					"name": "Derivandocolunas"
+				},
+				{
+					"name": "selectCliente"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          {Sequência } as string,",
+				"          {Descrição da Faixa Etária} as string,",
+				"          {Idade inicial} as string,",
+				"          {Idade final} as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> faixaetaria",
+				"source(output(",
+				"          NR_CLIENTE as string,",
+				"          NM_CLIENTE as string,",
+				"          NR_CPF as string,",
+				"          FL_SEXO_BIOLOGICO as string,",
+				"          DT_NASCIMENTO as string,",
+				"          SG_ESTADO as string,",
+				"          NM_ESTADO as string,",
+				"          NM_CIDADE as string,",
+				"          NM_BAIRRO as string,",
+				"          VALOR_TOTAL as string,",
+				"          QUANTIDADE_TOTAL as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> clientesCSV",
+				"faixaetaria cast(output(",
+				"          {Sequência } as integer,",
+				"          {Idade inicial} as integer,",
+				"          {Idade final} as integer",
+				"     ),",
+				"     errors: true) ~> CovertFxE",
+				"CovertFxE select(mapColumn(",
+				"          sk_faixa_etaria = {Sequência },",
+				"          ds_faixa_etaria = {Descrição da Faixa Etária},",
+				"          qt_idade_inicial = {Idade inicial},",
+				"          qt_idade_final = {Idade final}",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> SelectNomesFxE",
+				"clientesCSV cast(output(",
+				"          NR_CLIENTE as integer '000',",
+				"          DT_NASCIMENTO as date 'yyyy-MM-dd'",
+				"     ),",
+				"     errors: true) ~> CovertCliente",
+				"CovertCliente derive(sk_cliente = iif(NR_CLIENTE==1, NR_CLIENTE, NR_CLIENTE),",
+				"          nr_cpf = toLong(replace(replace(replace(NR_CPF, '.', ''), '-', ''), ' ', '')),",
+				"          ds_sexo = iif(FL_SEXO_BIOLOGICO == 'M', \"Masculino\",iif(FL_SEXO_BIOLOGICO == 'F', \"Feminino\", \"Hermafrodita\")),",
+				"          ds_escolaridade = iif(NR_CLIENTE==1, \"Ensino Superior\", \"Ensino Superior\"),",
+				"          ds_estado_civil = iif(NR_CLIENTE==1, \"Solteiro\", \"Solteiro\"),",
+				"          dt_inicio = currentUTC(),",
+				"          dt_fim = iif(NR_CLIENTE==1, \" \", \" \")) ~> Derivandocolunas",
+				"Derivandocolunas select(mapColumn(",
+				"          sk_cliente,",
+				"          cd_cliente = NR_CLIENTE,",
+				"          nm_cliente = NM_CLIENTE,",
+				"          nr_cpf = Derivandocolunas@nr_cpf,",
+				"          ds_sexo,",
+				"          dt_nascimento = DT_NASCIMENTO,",
+				"          ds_escolaridade,",
+				"          ds_estado_civil,",
+				"          nm_estado = NM_ESTADO,",
+				"          sg_estado = SG_ESTADO,",
+				"          nm_cidade = NM_CIDADE,",
+				"          nm_bairro = NM_BAIRRO,",
+				"          dt_inicio,",
+				"          dt_fim",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> selectCliente",
+				"SelectNomesFxE sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          sk_faixa_etaria as decimal(28,0),",
+				"          ds_faixa_etaria as string,",
+				"          qt_idade_inicial as decimal(3,0),",
+				"          qt_idade_final as decimal(3,0)",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError') ~> SQLFxE",
+				"selectCliente sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          sk_cliente as decimal(28,0),",
+				"          cd_cliente as decimal(28,0),",
+				"          nm_cliente as string,",
+				"          nr_cpf as decimal(12,0),",
+				"          ds_sexo as string,",
+				"          dt_nascimento as date,",
+				"          ds_escolaridade as string,",
+				"          ds_estado_civil as string,",
+				"          nm_estado as string,",
+				"          sg_estado as string,",
+				"          nm_cidade as string,",
+				"          nm_bairro as string,",
+				"          dt_inicio as date,",
+				"          dt_fim as date",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError') ~> SQLCliente"
+			]
+		}
+	}
+}
