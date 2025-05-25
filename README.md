@@ -10,7 +10,7 @@ Este repositório consolida as duas etapas do projeto acadêmico desenvolvido pa
 - Construir uma dimensão temporal enriquecida com atributos como feriados, estações do ano e datas formatadas.
 - Automatizar a carga de dados via pipeline ETL no Azure SQL Database.
 
-### Parte II: Dimensão Faixa Etária
+### Parte II: Dimensão Fato Venda
 - Classificar clientes em faixas etárias a partir de datas de nascimento.
 - Associar estratégias comerciais e carregar os dados transformados em tabelas SQL.
 
