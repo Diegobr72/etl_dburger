@@ -20,9 +20,9 @@ Gerar um pipeline ETL robusto que:
 INSIGHTHUNTERS_ETL_FAIXA_ETARIA/
 ├── README.md
 ├── docs/
-│   ├── 1_evidencias.docx       
-│   ├── 2_evidencias.docx       
-│   └── 3_evidencias.docx       
+│   ├── 1_evidencias.pdf       
+│   ├── 2_evidencias.pdf       
+│   └── 3_evidencias.pdf       
 ├── data/
 │   └── Cadastro_Faixa_Etaria.xlsx  
 ├── scripts/
