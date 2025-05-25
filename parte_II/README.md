@@ -1,6 +1,6 @@
-## 📊 Projeto ETL – Dimensão Cliente por Faixa Etária (DBurger – Parte II)
+## 📊 Projeto ETL – Fato Vendas (DBurger – Parte II)
 
-Este repositório reúne a segunda etapa do projeto acadêmico desenvolvido para atender à **VendeBem**, cujo objetivo é construir a dimensão de faixa etária de clientes em um ambiente Azure, empregando **Azure Data Factory (ADF)** e **Azure SQL Database**.
+Este repositório reúne a segunda etapa do projeto acadêmico desenvolvido para atender à **VendeBem**, cujo objetivo é construir a dimensão de faixa etária e clientes, unificando na fato Venda em um ambiente Azure, empregando **Azure Data Factory (ADF)** e **Azure SQL Database**.
 
 ---
 
