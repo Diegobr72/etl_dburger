@@ -1,0 +1,989 @@
+NR_CLIENTE,NM_CLIENTE,NR_CPF,FL_SEXO_BIOLOGICO,DT_NASCIMENTO,SG_ESTADO,NM_ESTADO,NM_CIDADE,NM_BAIRRO,VALOR_TOTAL,QUANTIDADE_TOTAL
+97,"Ricardo De Vasconcelos Freitas","384.312.157-49","M",1995-04-08 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",22328.22,66
+192,"Ronaldo De Oliveira","277.235.266-97","M",1994-08-27 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",9926.45,34
+1453,"Humberto  Quesada","288.959.026-33","M",1997-12-11 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",11014.01,35
+2520,"Emanuelle Tuto","337.865.378-53","F",1992-11-25 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",12238.63,35
+871,"Marcelo Silva De Matos Dos Santos","375.266.519-55","M",1995-12-31 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",10349.9,33
+1938,"Carlos Eduardo Knirsch Pereira De Mello","269.625.454-73","M",1992-09-18 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",10595.17,30
+2614,"Bruno Queiroz Senna","070.913.591-28","M",1993-09-28 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",54225.93,144
+861,"Walter Covolo Junior","066.139.291-98","M",2000-10-14 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",9870.09,29
+858,"Ricardo Shigueo Ishiki","132.121.651-05","M",2000-09-06 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",41548.72,130
+373,"Leonardo Rodrigo R. Nutini","246.908.611-04","M",1996-12-29 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",39554.37,129
+1243,"Joaquim Fernandes Junior","168.047.043-42","M",1990-11-22 00:00:00.0000000,"CE","CEARA","Camocim","Centro",91674.89,255
+1825,"Douglas Santana Dos Santos ","116.684.519-80","M",2000-07-22 00:00:00.0000000,"CE","CEARA","Camocim","Centro",80269.97,241
+1437,"Giovani Varrese","174.471.438-98","M",1997-01-30 00:00:00.0000000,"CE","CEARA","Camocim","Centro",82223.78,245
+1913,"Thiago Luque Baena","403.622.339-81","M",2000-09-20 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",66109.25,182
+1038,"Renata Lumy Fukushima","326.608.337-07","F",1991-04-14 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",19901.56,62
+747,"John Sellis De Souza","123.088.001-92","M",1994-06-25 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",25049.31,72
+365,"Elisangela Cristina Queiroz","089.002.959-80","F",1995-12-23 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",31636.5,88
+1044,"Bernardo Goncalves Batista","247.817.969-64","M",1990-02-27 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",37896.65,104
+171,"Daniel Cappellano Curalov","263.407.161-03","M",1997-06-23 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",35093.01,107
+75,"Alessandra Machado Lira","070.279.041-77","F",2000-03-29 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",21315.13,65
+271,"Alexandre Pereira Dos Santos","384.124.742-60","M",1992-11-01 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",15515.71,43
+368,"Fernanda Rocha De Oliveira","384.412.684-67","F",1992-02-14 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",10018.21,29
+2475,"Clarisse Marques","390.955.229-30","F",1992-12-10 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",34730.63,103
+1408,"Rodrigo Pierri Landim","102.025.060-31","M",1998-04-09 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",36107.3,108
+1214,"Alessandra Morais De Almeida S","402.979.220-67","F",1999-10-19 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",36313.47,108
+1311,"Reinaldo De Paiva","354.624.554-88","M",1999-11-04 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",33562.97,100
+434,"Carlos Figueroa","412.406.545-39","M",1993-08-30 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",14104.88,40
+2277,"Silvia Pires Da Costa","245.454.762-40","F",1996-04-20 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",21825.42,66
+1501,"Isabel Cristina Palma Silva","177.826.588-32","F",2000-04-02 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",24618.55,69
+1986,"Bruno De Moura Ribeiro","158.459.797-25","M",1992-12-09 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",21892.78,62
+162,"Anderson Ribeiro Da Silva","182.177.654-94","M",1996-12-14 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",34279.25,106
+841,"Everton Thiago Portela","153.005.459-82","M",1990-10-01 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",35058.08,100
+2199,"Gabriel Franham","349.329.997-58","M",1999-12-19 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",18517.19,53
+1997,"Helder Alcantara Rodrigues Boldrim","170.489.716-20","M",1999-02-06 00:00:00.0000000,"PA","PARA","Belem","Condor",10893.28,31
+1512,"Marcos Vinicius Lopes Galhardi","363.599.671-73","M",1990-06-23 00:00:00.0000000,"PA","PARA","Belem","Condor",7178.74,20
+1027,"Kleber Rodrigues Piccini","294.799.816-47","M",1998-05-01 00:00:00.0000000,"PA","PARA","Belem","Condor",14568.73,38
+445,"Marcos De Souza Maurino","402.386.217-87","M",1992-04-20 00:00:00.0000000,"PA","PARA","Belem","Condor",2093.51,9
+354,"Alexandre Loseviciene Carvalho","106.375.513-06","M",1999-06-08 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",23160.37,78
+619,"Tadeu Barros De Oliveira","402.212.613-89","M",1992-08-04 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",83542.65,238
+2171,"Lucas Lisboa De Queiroz Figueiredo","387.227.032-93","M",1996-02-15 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",41472.86,122
+2073,"Joao Paulo Silverio Nakano","171.856.799-70","M",1993-01-02 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",23499.87,65
+228,"Carlos Chogo Murakami","373.102.287-84","M",1992-08-20 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",9451.88,28
+1780,"Elton Da Silva Santos","206.533.253-09","M",1991-05-07 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",7194.93,25
+810,"Soraia Vasquez Salas","064.000.117-79","F",1996-11-25 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",9394.56,25
+2358,"Danilo Maia Boccomino","096.427.484-98","M",2000-03-14 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",14178.29,42
+127,"Junior Rodrigues Da Fonseca","243.296.826-96","M",1993-05-14 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",10482.89,33
+316,"Everton Alves Dos Santos","266.389.676-53","M",1997-06-25 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",19280.41,56
+1376,"Marcelo Michelan","353.332.938-94","M",1998-02-23 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",39483.77,107
+2734,"Vitor Araujo Felix","104.075.325-03","M",1991-07-11 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",35576.21,101
+503,"Gabriel Gozzo Biffi","338.176.758-03","M",1994-12-20 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",13418.46,45
+303,"Camila Tavares Menezes","330.586.795-10","F",1991-03-08 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",12979.41,41
+982,"Tarcisio Jose Leite Dos Santos","344.338.360-71","M",1996-01-25 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",8880.1,26
+107,"Aurelia Ferreira Lopes","176.381.182-69","F",1995-03-25 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",63103.12,189
+16,"Rodinei Sampaio","119.764.345-35","M",1990-06-07 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",23985.65,66
+792,"Renato Vieira Lopes","280.426.408-35","M",1994-07-28 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",26323.82,75
+2729,"Ricardo Da Silva Costa","310.416.858-17","M",1996-01-09 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",10292.18,29
+2632,"Kaio Vinicius Leal Teixeira","405.334.394-93","M",1993-06-18 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",15525.88,45
+1856,"Ana Karen Barbosa De Faria","218.182.356-10","F",1996-08-13 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",13964.46,39
+1662,"Stefany Gabriela Cipriano Marques","212.630.185-57","F",1990-08-02 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",13614.35,37
+313,"Diogo Motta Kuntzer","212.367.243-33","M",2000-05-15 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",40049.29,117
+1378,"Aurelio Betenheuser","136.527.252-81","M",1994-02-05 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",28962.01,88
+893,"Soraya C C Santiago De Sa","189.881.307-61","F",1999-12-25 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",39949.96,114
+311,"Denis Scarassati","055.894.771-66","M",1998-03-04 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",28710.6,86
+198,"Sidney Lima De Aguiar","121.628.227-74","M",1998-12-22 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",41874.02,117
+1265,"Renato Rito Praglioli","286.645.744-74","M",2000-11-21 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",29343.1,95
+2235,"Marisa Da Costa Sabino","192.739.267-32","F",2000-01-07 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",32153.32,102
+2041,"Rodrigo Yamawaki Camargo","417.548.142-20","M",2000-10-04 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",37387.22,112
+1744,"Rodney Tadeu Rodrigues Barbosa Prospero","166.053.700-33","M",1993-03-26 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",8313.66,29
+2035,"Givonaldo Gilvan Da Silva","142.085.381-64","M",1992-07-06 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",12188.99,37
+2423,"Iago Manholetti Alexandrino","323.781.359-55","M",1992-11-04 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",8310.25,26
+2517,"Livia Martinelli","287.734.265-37","F",1994-11-16 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",64846.85,186
+764,"Luis Carlos Dos Santos Figueiredo","283.643.029-23","M",1999-09-12 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",13037.01,42
+1928,"Victor Soares Da Fonseca","189.501.063-37","M",1999-01-30 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",13138.9,35
+1540,"Marcos Valle Lacerda ","405.151.002-12","M",1993-10-15 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",11421.52,35
+276,"Antonio Diego Rodak Ferraz","401.961.908-38","M",1995-08-20 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",41499.52,130
+1052,"Artur Luchesi Maciel","378.723.840-13","M",1993-11-10 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",46384.74,138
+664,"David Martinez Campanella","143.614.555-50","M",1993-09-01 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",42027.57,124
+2116,"Ricardo Souza Costa","401.367.897-97","M",1996-05-14 00:00:00.0000000,"CE","CEARA","Camocim","Centro",74190.41,215
+2504,"Laura Nunes","347.235.056-14","F",1994-07-18 00:00:00.0000000,"CE","CEARA","Camocim","Centro",86149.8,242
+1728,"Fernanda Alane Dos Santos","276.282.645-55","F",1999-01-04 00:00:00.0000000,"CE","CEARA","Camocim","Centro",74819.93,227
+370,"Igor Rodrigues Ieva","270.117.976-91","M",1998-10-03 00:00:00.0000000,"CE","CEARA","Camocim","Centro",76837.04,225
+363,"Dayana Lisboa De Sales ","197.523.088-16","F",1992-11-21 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",46560.92,139
+2497,"Maria  Linda Hamaita","198.176.945-97","F",1991-02-20 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",34516.74,113
+848,"Marcela Gois Tateishi Dos Santos","397.712.686-69","F",1997-11-22 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",46704.59,133
+2301,"Rose Da Silva Pinheiro","386.636.026-30","F",1996-05-13 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",75008.22,208
+2299,"Renato Fuller","364.927.497-08","M",1998-10-30 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",14764.55,45
+1620,"Joao Victor Pessoa Queiroz","257.306.441-73","H",1994-06-16 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",24650.35,69
+1717,"Renan Gomes Da Silva","257.481.500-51","M",1992-04-04 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",29784.95,83
+1600,"Pedro Henrico","254.469.627-75","M",1998-04-08 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",48836.72,144
+1406,"Fabio Gaspar De Oliveira","307.911.631-19","M",1995-02-15 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",44020.61,132
+1499,"Helio Alves De Souza","340.517.733-40","M",1993-01-09 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",26222.26,75
+529,"Cintia Alline Dos Santos Reis","382.750.765-41","F",1997-03-10 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",22912.28,69
+723,"Giovani Pereiralima","291.602.284-11","M",1993-09-29 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",21382.03,64
+2393,"Gabriel Clara Rufino","431.758.887-44","M",2000-02-09 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",31888.67,93
+1803,"Thiago Romeiro Alves","100.472.924-22","M",2000-03-04 00:00:00.0000000,"PA","PARA","Belem","Condor",10352.63,35
+1415,"Clodoaldo Henrique Tomaz","277.562.073-25","M",1992-01-21 00:00:00.0000000,"PA","PARA","Belem","Condor",9260.37,27
+1124,"Jean Tozzi Yovanovich","071.324.628-10","M",1994-12-05 00:00:00.0000000,"PA","PARA","Belem","Condor",11367.52,37
+1609,"Caio Rocha De Goes","268.373.440-20","M",1992-03-14 00:00:00.0000000,"PA","PARA","Belem","Condor",11381.05,38
+1900,"Tassia Abrantes Chaves","426.144.359-46","F",1990-03-01 00:00:00.0000000,"PA","PARA","Belem","Condor",13743.82,38
+1607,"Alexandre Pacheco Do Couto","311.373.678-20","M",1991-12-28 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",25826.85,75
+1518,"Rodrigo Aparecido Caldato","105.248.293-22","M",1990-06-19 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",21626.48,62
+1130,"Marcelo Palmieri Rodrigues","111.930.981-02","M",1997-08-17 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",23485.5,67
+742,"Roberto Rivera Da Costa","366.470.572-71","M",1992-10-26 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",24689.76,62
+1007,"Fernando Jun Nomiyama","170.084.818-08","M",1991-04-13 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",83098.07,249
+2559,"Alexandre De Deus Soteras","120.979.878-74","M",1994-12-17 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",75671.97,219
+2558,"Sergio Luiz Ciampi Filho","166.843.652-86","M",1995-04-07 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",25193.03,70
+1976,"Vagner Esdras Torres","121.652.720-56","M",1991-11-30 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",19568.08,63
+2556,"Pedro Luiz Mabelini","063.424.016-30","M",1993-09-12 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",14936.18,41
+1101,"Rodrigo Chaul Coimbra","149.674.826-78","M",1994-11-27 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",9093.62,25
+2071,"Isis Fantini Carneiro","247.039.045-46","F",1990-03-16 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",9254.66,29
+1103,"Ageu Brito De Almeida","281.035.986-44","M",1994-11-19 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",21452.27,64
+2159,"David De Paula Luchetti","244.186.050-64","M",1991-11-13 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",10256.86,30
+2353,"Julia Bondezan Nocelli","053.524.227-52","F",1999-03-08 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",20067.54,63
+704,"Alysson Nobrega Ferraz","332.171.311-58","M",1995-01-10 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",24520.87,76
+1496,"Felipe Correia Sial","344.247.544-76","M",1996-09-28 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",64079.16,186
+1302,"Joao De Cerqueira","068.621.679-73","M",1991-01-04 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",55678.08,168
+891,"Bruna Rampazzo","233.090.615-47","F",1992-05-15 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",29137.31,86
+1958,"Kleiton De Souza Brito","134.614.392-06","M",1999-05-11 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",31253.64,99
+1370,"Giselle  Feerreira  De Abreu","413.559.430-22","F",1999-05-09 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",8857.19,32
+109,"Heitor Peixoto","275.480.252-98","M",1995-08-26 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",12785.32,31
+497,"Diogenes Buarque Ianakiara","327.769.609-03","M",1991-01-18 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",4588.9,16
+1176,"Marcos Vinicius Fonseca","114.209.356-52","M",1991-04-30 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",11216.93,29
+2629,"Igo Jeferson Barros Coelho","141.214.112-19","M",2000-07-11 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",68310.33,187
+301,"Augusto Rocha Cavalieri","414.122.271-55","M",1997-02-12 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",63413.93,183
+598,"Zilda Cavalcante Da Costa","064.401.033-92","F",1995-05-24 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",22515.9,69
+210,"Washington Ricardo Martins","238.159.488-55","M",2000-11-07 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",27262.99,78
+2050,"Carlos A. C. Crasto Filho","398.156.007-78","M",1995-01-01 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",9588.67,31
+1953,"Henrique Silva Melo","337.474.915-59","M",1994-02-16 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",7957.18,27
+699,"Sergio Chaul Coimbra","246.729.714-68","M",1997-12-23 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",40400.11,116
+2251,"Marcelo Cabral","273.464.831-97","M",1999-06-29 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",35648.05,110
+974,"Rosangela Pereira Alonso","157.140.473-27","F",1994-09-24 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",36695.18,108
+586,"Tiago Belmonte Da Costa","351.458.699-68","M",1991-02-19 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",35665.5,105
+2231,"Rosana Santinni","426.973.568-59","F",1999-11-25 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",16257.23,55
+2619,"Edson Luiz Fragnan","141.400.377-09","M",1994-01-24 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",20863.4,65
+291,"Rosilaine Machado Borges","060.229.515-75","F",1997-10-14 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",23169.49,67
+1455,"Gustavo Dias Baptista Gomes","244.277.516-04","M",1992-05-07 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",24485.88,76
+968,"Rodrigo Manicardi Conde Fernan","080.368.617-32","M",1994-05-28 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",13920.95,39
+1356,"Paulo Henrique Santana","336.566.825-81","M",1993-11-16 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",9591.08,30
+1841,"Marcelo Queiroz Da Silva ","077.157.960-10","M",1995-09-29 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",11146.23,31
+483,"Vanessa Goncalves De Araujo","397.086.330-66","F",1996-07-07 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",7291.06,19
+677,"Fabio Costa Martins","423.006.003-03","M",2000-04-14 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",14883.88,40
+2617,"Diego Rafael Berton Silva","332.801.635-31","M",1991-10-28 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",11665.84,31
+2420,"Gabriel Silva De Souza","400.986.630-28","M",1998-11-17 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",52973.36,149
+771,"Lauro Tsuji","161.219.990-60","M",1992-03-19 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",62232.05,184
+1935,"Anderson De Souza Borges","056.786.297-83","M",2000-12-20 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",56701.28,169
+1343,"Josiane De Castro Alves","119.894.042-24","M",1998-05-09 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",40987.95,123
+179,"Leonardo Grandisoli","106.310.567-35","M",1996-06-26 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",47345.2,139
+1146,"Fabio Mangone Ferraz","392.962.883-29","M",1994-04-24 00:00:00.0000000,"CE","CEARA","Camocim","Centro",73147.95,224
+952,"Laiza Oliveira Santos","302.036.536-66","F",1997-05-06 00:00:00.0000000,"CE","CEARA","Camocim","Centro",75158.37,239
+2691,"Marcos Vinicius Mendes Ferreira","069.536.872-58","M",1998-08-31 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",49778.35,139
+2206,"Jessica Silva De Barros","292.796.903-16","F",1993-09-01 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",24434.17,73
+943,"Daniel Carlos Teixeira Silveir","243.227.049-47","M",1993-08-08 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",61614.54,191
+2693,"Nicolas Tigle Lins Silva","070.946.590-17","M",1990-06-30 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",37963.51,111
+2499,"Luana Maria Lima","325.238.098-83","F",1997-07-02 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",34973.4,100
+1432,"Reginaldo Gomes Jardim","159.269.852-09","M",1997-02-07 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",32866.68,101
+1045,"Eli Dos Santos Silva ","212.792.326-17","M",1999-06-15 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",23038.97,63
+2209,"Lara Cristina Campina Dos Santos","330.891.211-17","F",1997-05-06 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",13929.93,38
+923,"Henrique Smirnof Nascimento","422.636.615-70","M",1999-05-04 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",30382.76,87
+244,"Fabio Abinajm Sant Anna","240.415.224-25","M",1995-10-20 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",36123.44,101
+1796,"Nicholas Doula Ribeiro","310.846.096-76","M",1996-03-10 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",34707.82,107
+727,"Juliana Polato Lopes","202.656.051-57","F",1997-11-27 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",49168.39,139
+1208,"Victor Silva Junior","081.761.737-75","M",1997-07-02 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",22598.47,78
+833,"Carlos Alberto De Almeida","164.509.896-32","M",1999-03-04 00:00:00.0000000,"PA","PARA","Belem","Condor",12126.42,35
+1122,"Giovani Bom","372.681.873-22","M",1992-09-12 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",21963.25,64
+1413,"Marcos Brandao Rodrigues","235.855.773-57","M",1993-06-21 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",26130.09,77
+2100,"Adriana Da Costa Dias","144.746.550-06","F",1992-04-06 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",26247.1,70
+1324,"Roberto De Souza Medeiros","245.227.978-28","M",2000-04-11 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",24632.58,74
+1615,"Fernando Borgatto Bouman","163.280.063-39","H",1996-02-07 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",18238.21,58
+328,"Maria Ivanilde Da Silva Lima","169.460.453-42","F",1994-08-06 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",89478.56,262
+1782,"Fagner Jose De Oliveira","076.887.767-02","M",1994-11-11 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",22748.68,67
+1679,"Thais Gennari Felipe","420.086.406-79","F",1992-04-14 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",13067.8,36
+1776,"Carlos Akira Kono","305.866.476-33","M",1996-02-25 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",14885.95,48
+515,"Mobi Yabiku Neto","252.362.853-59","M",1991-07-30 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",12348.01,31
+1674,"Lucas Cesar Soares","382.442.901-62","M",1993-12-03 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",29646.84,91
+510,"Julia Bergantini Pinto","294.166.466-83","F",1995-04-10 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",11006.12,34
+219,"Alcides Junkman","298.144.049-84","M",1995-08-04 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",23617.49,71
+1771,"Arie Perini Domingos","157.862.740-32","M",1991-02-21 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",22101.57,67
+1981,"Alex Lino Dos Santos","407.134.130-93","M",1990-06-08 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",61038.19,174
+1690,"Giovana Lira Fernandes","150.097.903-13","F",1997-08-06 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",52946.09,152
+115,"Bruno De Oliveira Moreira","263.482.091-58","M",1995-04-04 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",37358.52,107
+2637,"Marcelo Hadad","279.892.466-49","M",1991-12-16 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",36023.3,108
+594,"Waldir Panza","186.415.314-79","M",1990-05-23 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",11996.35,32
+2243,"Paulo Carvalho","126.360.850-24","M",1997-07-08 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",8288.1,27
+2144,"Kauan Bonifacio Santana","091.541.856-20","M",1991-09-01 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",35364.55,110
+2241,"Fabio Vasconcelos","056.022.576-05","M",1994-02-15 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",68065.9,197
+2244,"Soraya Soarez","104.469.026-45","F",1995-02-15 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",8268.47,28
+13,"Camila Rodrigues","346.748.213-61","F",1993-06-11 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",12638.54,37
+595,"Emerson Firmino","398.918.028-75","M",2000-09-19 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",13528.46,33
+1186,"Ricardo Mamoru Matsushita","228.674.813-74","M",1995-06-26 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",41449.07,126
+1671,"Julia Assuncao Silva","116.042.212-84","F",1994-02-24 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",44007.09,124
+1766,"Rafael Dos Santos Silva","304.980.418-38","M",2000-11-27 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",26508.7,90
+505,"Gustavo Urias","364.841.493-01","M",1993-06-15 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",14827.2,42
+1556,"Maria Carolina Rossetto Zanatta ","271.646.435-04","F",1990-02-10 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",32263.25,101
+197,"Sheila Luiz Santos","220.431.905-36","F",1998-03-31 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",22280.19,61
+1264,"Pedro Luiz Repullo Da Cruz","262.758.277-59","M",2000-04-15 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",18856.36,58
+2525,"Emanuela Magalhaes","372.558.376-69","F",1992-02-29 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",22027.93,64
+1362,"William Palermo","202.290.619-36","M",1990-06-28 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",35946.37,106
+1746,"Victor Cardoso Costa","094.932.932-58","M",1993-03-29 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",18871.73,56
+679,"Iran  Lima Espessotto","166.136.549-19","M",1990-09-23 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",20942.03,66
+1353,"Emilia Motinoto Minamizawa","067.097.411-38","F",1998-06-22 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",55695.91,155
+1734,"Leandro Santana Lacerda","158.374.879-04","M",1990-12-12 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",9473.87,30
+273,"Alysson Nobre Da Silva","157.333.189-79","M",1996-02-11 00:00:00.0000000,"CE","CEARA","Camocim","Centro",78258.91,232
+2407,"Victor Fernando Magalhaes Vasconcelos","312.157.012-31","M",1997-12-10 00:00:00.0000000,"CE","CEARA","Camocim","Centro",73633.19,210
+1721,"Andre Veroneze Peluso","234.775.851-99","M",1997-03-22 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",49264.23,144
+2400,"Larissah Santos Da Silva","190.276.907-94","F",1995-05-09 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",37434.17,108
+72,"Alexandre Duarte","125.553.541-72","M",1999-03-03 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",43861.48,134
+557,"Aleksandro Lio Leal Da Rocha","138.067.189-99","M",1995-09-20 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",44798.6,133
+1915,"Tiago Alexandre Soncini","401.499.448-34","M",1999-03-07 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",43501.64,125
+1428,"Marcelo Hiroshi Tomosada","215.904.923-21","M",2000-09-27 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",71639.56,207
+2398,"Joao Victor Lopes Da Silva","311.963.645-98","M",1996-06-13 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",60296.26,185
+1719,"Adriano Almeida De Araujo","188.803.877-36","M",1994-02-24 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",75673.98,216
+68,"Lucas Cunha Lima","151.304.886-03","M",1994-08-26 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",23684.49,72
+1335,"Gabriel Cavalcanti","205.835.037-44","M",1997-05-09 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",36437.68,109
+656,"Andre  Teixeira De Padua","232.779.682-18","M",1993-02-24 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",39716.56,112
+462,"Gabriel Marques Burato","229.868.078-26","M",1997-01-20 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",14782.08,50
+2500,"Estela Damasceno","238.287.638-74","F",1998-03-07 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",23532.05,71
+1627,"Mateus Victor Gianoni","296.129.599-20","M",1995-05-30 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",23587.23,66
+1142,"Anderson Quefrem Da Silva Pere","430.686.089-79","M",1994-11-06 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",23343.29,65
+1723,"Bruno Sequeira De Carvalho","363.466.880-07","M",1999-03-16 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",34178.85,101
+1726,"Cristian Eugenio Maximiliano Insfran","267.967.798-04","M",1998-02-10 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",14041.28,38
+756,"Pedro Do Prado Freitas","320.987.044-06","M",1991-03-01 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",14780.95,42
+921,"Filipe Falcirolli Manhani","321.994.880-64","M",1999-08-22 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",49087.95,144
+2570,"Eric Alves Araujo","203.919.250-21","M",1997-05-09 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",47451.38,134
+2081,"Marco Antonio De Andrade","359.215.062-76","M",1997-07-14 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",25337.07,71
+1035,"Norma Cabral Da Silva","312.371.568-46","F",2000-10-02 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",34745.65,110
+1908,"Robson Assis Oliveira","106.829.365-39","M",1993-02-14 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",32843.12,107
+2482,"Cecilia Araujo","154.511.675-73","F",1992-06-30 00:00:00.0000000,"PA","PARA","Belem","Condor",6498.08,21
+2189,"Ana Clara Lakitini Dos Santos","237.311.395-49","F",1998-04-18 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",12128.7,37
+249,"Felipe Olsen Galantini","052.933.133-19","M",1991-09-26 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",24159.35,69
+443,"Marco Estevam Garcia","238.717.835-33","M",1995-03-09 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",9730.93,29
+2092,"Rafael Felizola","373.430.976-93","M",2000-06-10 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",22211.78,60
+160,"Alex Giovani Varrese","220.697.448-66","M",1990-03-27 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",21354.4,63
+63,"Rosana Torres","171.627.342-80","F",1997-05-22 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",22731.26,68
+1686,"Felicio Soares Da Silva Junior","207.661.181-96","M",1992-12-12 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",76774.49,227
+1395,"Hilton Higashi","408.111.609-88","M",1993-04-04 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",74318.91,228
+1201,"Silvia Diaz Medina","051.199.344-27","F",1999-02-02 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",76306.73,221
+521,"Pedro Henrique Santana Mariano","286.970.581-02","M",1990-11-29 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",18428.65,54
+1588,"Jessica Yuki Toyota","122.423.482-40","F",1990-10-09 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",25731.5,72
+2362,"Giovanna Caroline Adorno","348.089.551-02","F",1997-11-18 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",10738.65,32
+1489,"Carlos Eduardo Silva Costa","064.298.298-32","M",1996-07-23 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",12503.66,37
+418,"Marcio Eduardo De Melo Lopes","115.399.435-29","M",1994-06-07 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",7766.47,21
+2563,"Arthur Coutinho","186.244.592-13","M",1994-09-30 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",62122.26,168
+2078,"Marcio Cardoso Pitta","155.958.600-57","M",1995-03-07 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",59751.51,177
+235,"Danilo Da Silva Destefano","268.806.085-66","M",1999-06-21 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",52148.69,146
+2660,"Emerson Batista Da Silva","074.120.879-48","M",1992-12-10 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",51398.39,156
+1011,"Gilberto Silva De Paulo","349.753.019-96","M",1990-08-24 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",53838.62,156
+623,"Evandro Gasparin Lopes","335.724.019-14","M",1998-07-01 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",57890.54,168
+2437,"Paulo Sergio Guedes Porfirio","104.134.731-84","M",1995-04-07 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",11311.35,35
+1762,"Luiz Alvaro Pereira Carvalho Peres Da Silva","327.156.406-88","M",1998-12-26 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",18939.68,59
+113,"Alexandre De Souza Vasconcelos","278.624.952-13","M",1997-04-19 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",22308.35,63
+2538,"Julia Martinelli","086.234.103-44","F",1994-11-06 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",20101.52,65
+1277,"Maria Da Fonseca","347.625.507-88","F",1994-12-13 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",21119.75,62
+886,"William Maximiano Da Silva Junior","107.257.868-56","M",1991-12-16 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",11970.47,33
+2535,"Joana Mota","377.561.389-41","F",1990-08-27 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",6819.01,21
+1380,"Bernardol Assumpcao Luz","103.709.379-29","M",2000-04-19 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",39984.24,127
+2156,"Andre Conti Silva","175.456.581-63","M",1996-05-17 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",22953.43,72
+2057,"Eduardo Miranda Gomes","278.511.879-61","M",1996-06-30 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",34349.68,95
+1960,"Leonardo Oliveira Santos","368.982.797-74","M",1997-03-31 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",39925.82,108
+1087,"Marcal Kawai Do Prado","169.221.039-77","M",2000-11-25 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",33003.97,98
+100,"Valter Aguiar Da Costa","085.211.091-54","M",1999-10-27 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",19722.9,60
+1067,"Lucas Furtado Sena Martins","339.740.829-85","M",1995-04-17 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",22622.69,72
+2716,"Gabriel Scheffer Dos Santos","340.416.430-99","M",1990-02-16 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",19425.29,56
+2328,"Eric Brianez Giannetti","160.387.989-57","M",1992-08-19 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",22756.62,67
+386,"Rodrigo Teixeira Moreira","126.330.189-51","M",1996-04-13 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",16957.18,48
+2714,"Felipe Gustavo Alves Goncalves","315.069.127-48","M",1994-03-03 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",11089.93,30
+2323,"Daniel Bernardo De Souza","346.966.266-40","M",1996-10-13 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",47113.8,138
+2032,"Fabio Domingues Tomasio Enricci","181.090.144-20","M",1993-12-29 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",61702.11,176
+1644,"Heloisa Beatriz De Oliveira Costa","209.038.491-85","F",1999-05-31 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",50509.03,157
+480,"Thiago De Souza Marini","266.127.802-90","M",1994-07-20 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",28322.93,86
+286,"Eduardo Mikaro","165.439.748-62","M",1991-12-10 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",62728.52,175
+570,"Henrique De Paiva Lima","357.014.234-47","M",1991-08-28 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12897.55,36
+2122,"Diego Dante Paixao Guinez","188.499.617-45","M",1994-08-07 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",8479.34,26
+2604,"Thiago De Sousa Costa","326.551.716-22","M",1996-07-19 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",42621.62,125
+2216,"Midia Lima Pereira","164.396.623-95","F",2000-10-06 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",22351.41,66
+2493,"Maria Garcia","412.152.098-13","F",1992-05-17 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",25667.4,79
+2596,"Raul Batista Santana","151.191.410-38","M",1996-07-25 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",28910.11,83
+1918,"Rafael Serrano De Souza","300.779.063-77","M",2000-07-12 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",21442.23,67
+851,"Patricia Eiko De Campos","145.910.269-95","F",1998-03-18 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",22582.66,62
+1047,"Eli Dos Santos Silva","383.498.356-44","M",2000-07-19 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",8644.72,28
+46,"Thais Ramalho Da Costa","151.792.318-10","F",1993-08-13 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",20955.92,61
+1307,"Marise Mertz","334.960.852-37","F",1995-09-15 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",23644.59,67
+1111,"Clodoaldo Rodrigues Aleixo","184.036.615-85","M",2000-10-09 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",22388.38,65
+2178,"Ricardo Amaragi Batista De Souza","225.294.080-42","M",1992-07-15 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",17480.41,45
+2566,"Cristina De Santana Ponciano","135.019.487-05","F",1995-07-11 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",21315.38,61
+57,"Murilo Noronha","370.534.761-53","M",1992-09-01 00:00:00.0000000,"PA","PARA","Belem","Condor",7437.41,19
+1316,"Felipe Lima De Aguiar","342.501.231-44","M",1993-04-15 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",18147.15,55
+2656,"Victor Melhem Deoud Lemos","288.927.082-13","M",1990-05-22 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",76761.29,241
+1392,"Farney  Goncalves Da Silveira","100.175.411-94","M",1997-02-01 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",13947.06,40
+903,"Adilson Pertrucci","255.143.730-82","M",1995-05-13 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",9027.81,28
+898,"Jose Alexandre Minato Garcia","242.807.891-49","M",1998-06-24 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",29358.94,87
+1965,"Luciano Simoes Ramos","313.556.752-97","M",1993-02-11 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",25301,69
+1383,"Roberto Correa Da Silva","144.865.371-69","M",1998-03-09 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",20072.58,60
+18,"Eduarda Cassello","363.093.090-74","F",1996-01-06 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",39070.58,114
+1279,"Amaraul  Martins Rodigues","088.827.771-32","M",1993-02-10 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",29359.46,92
+794,"Marcio Tschisar Dos Santos","341.705.671-17","M",1994-02-19 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",32463.07,97
+2443,"Endril Gabriel Silva Dos Santos","150.293.048-70","M",1991-07-17 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",36219.76,110
+2340,"Murilo Sousa De Carvalho","288.624.088-82","M",1999-09-16 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",6743.15,22
+1855,"Washington Zanoni De Oliveira Santos ","060.136.147-55","M",1994-05-28 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",12058.72,38
+1853,"Thiago Junqueira Ribeiro  ","372.749.073-24","M",2000-05-15 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",59611.25,176
+110,"Ronado De Oliveira Alves","321.713.487-86","M",1990-09-10 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",14600.49,38
+1274,"Marcia Barbosa Da Costa","216.002.635-76","F",1996-09-13 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",11586.14,31
+22,"Alice Dias Da Costa","366.233.572-89","F",1992-02-21 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",44904.97,130
+1669,"Guilherme Carvalho Louzavio Rezende","093.405.920-84","M",2000-08-05 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",38393.54,110
+20,"Anita Martins","410.847.103-20","F",1990-01-27 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",36238.36,103
+1167,"Luis Eduardo Afonso","356.070.233-95","M",1999-04-20 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",26568.79,78
+585,"Pedro Spada De Oliveira","082.134.897-40","M",1997-01-06 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",23710.16,67
+2719,"Henrique Akio Koga","394.624.389-18","M",1994-01-21 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",23769.91,69
+1653,"Lucas Gabriel Estevam Campos","128.441.206-86","M",1997-03-06 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",32949.37,95
+683,"Jimmy Cortella Ferraz","308.724.400-73","M",2000-02-06 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",38601.93,111
+1944,"Douglas De Araujo Moraes","207.340.936-24","M",1999-03-08 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",33866.33,89
+774,"Vitor Barroso Lopes","182.773.285-72","M",2000-09-28 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",11176.93,33
+1159,"Kidney Silveira Moreira","056.329.075-25","M",1996-04-10 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",58844.68,168
+868,"Leonardo Da Silva Alves Ribeiro","211.786.717-50","M",1996-03-07 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",61405.78,171
+189,"Rodrigo Aparecido Da Costa","374.163.967-91","M",1995-04-16 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",62234.8,186
+376,"Marcos Eduardo Godoy Cotomacio","293.248.665-50","M",1994-08-21 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12224.02,32
+761,"Jose Do S Santos Vieira","352.070.983-67","M",1997-07-29 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",51088.98,141
+855,"Rafael Pereira De Oliveira","250.159.603-12","M",1999-05-31 00:00:00.0000000,"CE","CEARA","Camocim","Centro",73936.02,211
+1340,"Gabriel Urias","204.578.516-50","M",1995-04-17 00:00:00.0000000,"CE","CEARA","Camocim","Centro",87648.66,242
+70,"Fatima Pires Da Costa","210.933.760-65","F",1991-09-14 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",72010.97,203
+167,"Christiane Angelin Da Silva","238.788.049-19","F",1991-08-13 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",71996.09,213
+2597,"Renato Adolfi Saggio","417.273.764-35","M",1997-08-12 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",20834.03,56
+269,"Alessandro Vital De Lima Sousa","131.667.282-58","M",1999-04-02 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",23076.18,67
+659,"Felipe Andrioli  Ferraz","260.895.802-12","M",1994-10-06 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",8408.59,23
+2405,"Pedro Dib","351.601.010-25","M",1994-04-04 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",16415.3,44
+174,"Eduardo Nagamine","288.638.116-21","M",1991-12-28 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",9581.68,30
+853,"Pedro Luiz Mendonca Germeno","397.498.566-43","M",1991-10-30 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",9722.82,27
+77,"Leonardo Cavalcanti Correia","110.358.472-61","M",1995-04-17 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",7931.34,24
+535,"Giselle Cristina De Abreu","374.721.335-75","F",1992-11-21 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",37784.33,104
+1020,"Jonatha De Paiva Bezerra","125.801.488-88","M",1990-02-03 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",30126.85,92
+1503,"Jean Augusto","415.594.500-55","M",2000-03-26 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",42346.23,136
+919,"Eduardo Shigueo T. Shitara","124.750.660-47","M",1998-04-01 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",23397.01,67
+2568,"Diego Ferreira Lima","183.316.392-12","M",1992-03-19 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",26160.28,71
+1887,"Leticia Gomes Correia","311.111.347-55","F",1992-11-22 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",24049.48,73
+2275,"Leandro Cunha Lima","323.042.695-85","M",1992-01-21 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",22472.58,71
+550,"Sheila Cristina Crespo","256.965.328-15","F",1994-12-15 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",33306.54,102
+2587,"Luiz Fernando De Azevedo Silva","053.850.422-05","M",1997-01-31 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",37718.56,107
+356,"Amarildo Garcia","362.866.157-72","M",1991-12-05 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",32882.91,94
+1520,"Ronildo Da Rocha Braga Junior","343.476.895-23","M",2000-11-14 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",33518.51,91
+65,"Eloisa Da Costa Pires","358.574.020-93","F",1997-09-19 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",37886.3,107
+930,"Paulo Martins De Souza Junior","114.938.398-76","M",1999-10-26 00:00:00.0000000,"PA","PARA","Belem","Condor",9771.09,33
+2676,"Carlos Eduardo Zanfolin De Freitas","054.644.534-33","M",1996-11-10 00:00:00.0000000,"PA","PARA","Belem","Condor",13589.56,38
+2480,"Dulce Maria Lopes","090.695.371-66","F",1991-10-08 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",18958.87,58
+1712,"Juan Henrique Batista Souza","216.552.654-00","M",1995-03-13 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",22171.28,66
+2003,"Johnny Do Espirito Santo","245.465.184-13","M",1997-10-08 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",23966.44,70
+230,"Cristiane Ferreira Martins","072.636.254-09","F",2000-04-30 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",24843.14,71
+2170,"Lucas Almendro Zanette","383.796.874-97","M",1994-01-07 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",13332.24,36
+715,"Diego Souza Aranha","393.204.249-96","M",1996-01-05 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",20506.87,59
+616,"Dantas Da Silva Destefano","085.767.251-76","M",1994-09-29 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",15173.62,40
+2455,"Emanuela Lopes","104.970.100-05","F",1999-12-07 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",13085.45,35
+1097,"Rafael Lopes Oliveira","365.531.491-30","M",1996-03-03 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",14450.84,43
+995,"Ednaldo Batista Braga","190.135.866-76","M",1996-10-20 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",22946.14,67
+2369,"Luan Henrique Silva Neves","324.485.572-92","M",2000-03-28 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",60123.78,175
+697,"Ricardo Zagatto Dos Santos","347.515.670-97","M",2000-08-29 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",40510.01,118
+1764,"Millena Dias Castro De Oliveira","058.082.833-64","F",1994-03-23 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",27011.67,85
+12,"Andrea Faria","131.168.755-55","F",1997-10-10 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",10173.42,31
+1564,"Filipe De Oliveira Rangel","245.933.864-70","M",1995-11-18 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",13323.87,41
+1467,"Lucas Mendes Dos Santos","342.707.150-60","M",1998-10-01 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",12763.21,32
+10,"Helio Bennetti","115.708.825-82","M",1994-02-01 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",73561.29,217
+980,"Simone Sanches Silva","129.030.227-77","F",1997-12-12 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",60442.69,175
+2441,"Alan Vitor Dib Jorge Lima","270.019.966-88","M",1991-12-28 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",22156.97,67
+2732,"Thiago Almeida Salomao Leitao","145.258.554-62","M",1990-07-24 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",21862.33,69
+889,"Antonio Marcos Tavares De Assis","193.792.567-20","M",1993-12-22 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",28663.11,77
+404,"Carlos Rocha Sodre","357.176.131-54","M",1991-09-25 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",21349.74,70
+895,"Graziela Santanna","164.759.312-36","F",2000-11-02 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",52879.71,148
+1962,"Leone Lanutte Pinto Da Rocha","408.700.137-95","M",1990-03-25 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",43721.94,132
+507,"Hiracazu Hirose","114.063.213-04","M",1998-11-20 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",23288.25,77
+1184,"Renato De Souza Chebra","099.625.665-78","M",1997-05-13 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",42255.81,119
+682,"Jeison Rodrigues De Souza","283.523.769-20","M",1994-01-30 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",19097.97,57
+779,"Luis Dinis Bougeard","134.108.505-12","M",1992-07-10 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",22789.11,70
+1749,"Andre Luiz Dos Santos Lacerda","391.613.252-63","M",1997-06-09 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",24562.46,65
+873,"Matheus Ferreira Dos Santos","238.228.777-57","M",1990-09-08 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",16606.16,51
+1552,"Matheus Henrique Coelho Dos S.","158.044.440-68","M",1990-12-10 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",23635.78,64
+2229,"Alessandra Dias Da Costa","113.068.062-09","F",1997-06-10 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",7743.27,19
+965,"Rodrigo Cesar Braga","247.476.991-26","M",1998-11-01 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",55291.33,166
+1256,"Marcos Rogerio Ferreira Silva","317.800.733-07","M",1990-05-26 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",55779.54,162
+279,"Claudinei Monteiro","393.146.740-73","M",1995-12-31 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",11911.19,34
+182,"Marcio Jose Rufino Merino","344.777.599-93","M",1994-09-21 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",11572.63,38
+2510,"Dulce Toledo","304.968.125-25","F",1992-03-17 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",14214.44,43
+567,"Jacques Rossi Pellegrini Jacob","414.125.742-59","M",1998-02-25 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",45200.77,126
+1828,"Gilberto Carvalho Sardas ","334.586.661-84","M",1999-02-16 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",51916.1,156
+2310,"Lucas Iumatti Ruas","107.205.223-21","M",1998-08-08 00:00:00.0000000,"CE","CEARA","Camocim","Centro",87983.89,263
+2601,"Sergio Martins Pereira Junior","156.920.318-38","M",1993-07-27 00:00:00.0000000,"CE","CEARA","Camocim","Centro",81813.44,237
+2698,"Stefano Tosi Butori","374.222.994-39","M",1994-12-25 00:00:00.0000000,"CE","CEARA","Camocim","Centro",79714.05,238
+1816,"Willian Saavedra Moreira Da Costa","070.435.667-56","M",1993-03-31 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",77330.06,225
+2592,"Paulo Ferreira Jardim","206.641.703-68","M",1992-08-12 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",62665.13,189
+652,"Alvaro Pereira Dos Santos","080.426.134-76","M",1993-08-03 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",63924.2,194
+1234,"Erica De Carvalho","079.700.414-46","F",1992-10-02 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",69657.93,197
+555,"Thais Pires Ferrari","157.955.179-16","F",1998-03-25 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",71106.55,212
+749,"Andemir Quefrem Pereira","193.794.033-66","M",1994-12-21 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",69121.23,201
+846,"Lilia Mara Lima De Medeiros","255.060.872-35","F",1992-05-25 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",66881.77,187
+2204,"Higor Messias Caetano","362.301.858-95","M",2000-01-17 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",34201.95,100
+2105,"Cecilia Seriacoppi","306.000.439-92","F",1990-11-12 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",20961.42,63
+1135,"Rafael Moraes Natali","225.619.364-05","M",1991-12-04 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",18133.47,61
+2590,"Nataly Lelis Guzman","403.076.458-40","F",1996-10-03 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",18206.55,56
+366,"Felipe Ams Neto","179.840.212-31","M",1990-10-20 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",26137.18,75
+2015,"Renan Silva Moura","361.962.167-33","M",1990-01-09 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",20337.93,63
+1338,"Robson Gozzo Biffi","361.121.210-40","M",1999-06-07 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",18989.37,51
+1602,"Rodrigo Andre Chiarelli Goncalves","097.163.610-62","M",2000-02-01 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",38121.05,107
+632,"Fernando Luis  Ewbank","262.669.248-72","M",1993-08-03 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",35756.9,103
+2184,"Vitor Augusto De Lima","342.413.364-33","M",1995-03-03 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",16780.32,55
+1988,"Caroline Dos Santos Freitas","232.883.937-93","F",1997-08-15 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",43421.44,129
+2667,"Thaytlla Hayzza Sophya Do Nascimento Evangelista","359.256.584-25","F",1999-12-22 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",49202.1,146
+2471,"Isadora Canalonga","120.072.606-85","F",1998-04-22 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",19920.12,60
+1305,"Fernando Ferreira Corandi","155.280.862-38","M",1990-08-21 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",20962.03,66
+335,"Rafael Munhoz","309.721.025-61","M",1994-11-02 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",22235.75,62
+2469,"Jade Pereira Souza","178.758.652-17","F",1994-08-22 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",18931.72,53
+44,"Joao Cabral","076.592.121-26","M",1992-01-23 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",19389.83,50
+1714,"Nadezhda Andrushchenko","072.350.913-36","M",1998-08-22 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",32290.82,103
+744,"Raimundo Goncalves Da Silva","339.212.216-26","M",1998-07-29 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",34205.05,101
+1025,"Karen Andrade Cedro","248.305.274-31","F",1996-05-20 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",18390.44,60
+2383,"Denis Galvez Mantovani","162.804.728-83","M",1993-10-26 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",24497.59,69
+637,"Alessandro  Arenzon","318.991.409-64","M",1993-03-22 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",25010.07,70
+2585,"Leandro Tambelini De Oliveira","195.402.329-34","M",1990-08-03 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",23387.51,63
+257,"Lidia Maria Pereira Lima","125.771.773-84","F",1997-08-16 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",18793.11,62
+1880,"Isaac Correia Da Silva","359.660.978-30","M",1993-09-25 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",77535.15,227
+1298,"Fabricio Eugenio Endler Kahil","377.264.543-88","M",1991-09-16 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",77058.7,226
+1783,"Gabrielle Leal Pimenta","134.368.507-24","F",1996-12-22 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",89303.66,260
+1974,"Rogerio Fortes Bertoleti","260.081.192-73","M",1996-05-30 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",11202.28,34
+2067,"Henrique Ruiz Poyatos Neto","187.913.538-83","M",1996-06-06 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",9875.5,28
+806,"Rubens Pereira Lopes","062.681.525-45","M",1990-06-30 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",14732.12,36
+1485,"Bruno Sakamoto","115.538.551-10","M",1992-12-31 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",13956.8,44
+1182,"Renan Falco","207.223.759-87","M",1991-07-12 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",35884.69,106
+2249,"Marcos Souza Filho","248.984.751-07","M",1996-08-21 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",34827.66,94
+1667,"Fabio Pinheiro Monteiro","365.821.633-83","M",1998-06-11 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",30256.44,89
+2152,"Samuel Rodrigues Da Silva","231.312.178-22","M",1999-09-06 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",15494.3,45
+2146,"Lucas Augusto Araujo Oliveira","316.611.305-39","M",1996-06-03 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",6224.48,20
+1079,"Fernando Costa Martins","326.018.170-97","M",1997-09-23 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",10857.47,35
+204,"Thiago Spada De Oliveira","292.908.766-23","M",2000-10-20 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",66161.32,192
+1665,"Bruno Teixeira Da Silva","406.922.308-90","M",1991-07-22 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",21424.41,66
+2447,"agata Santos","390.484.092-06","F",1997-09-24 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",43105.18,131
+1574,"Alison Guimaraes Oliveira Da Silva","154.028.365-31","M",1990-01-17 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",43269.61,125
+1572,"Edimar Souza Do Carmo","199.320.695-97","M",1996-10-13 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",36455.53,104
+1281,"Arnaldo De Oliveira Alves","358.528.739-61","M",1991-05-01 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",34608.88,106
+2639,"Michael Douglas Lima Da Silva","291.653.368-49","M",1994-05-29 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",38299.35,107
+1070,"Mariana Martins Bertoldo","168.187.736-83","F",1990-07-08 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",22008.18,68
+1071,"Elton Santos Vianna","200.168.830-30","M",1991-11-18 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",37585.61,103
+388,"Thais Oliveira De Almeida","295.289.042-77","F",1997-11-05 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",24836.03,72
+2134,"Bruno Ferreira Nascimento","359.007.106-10","M",1992-02-07 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",10711.05,28
+1647,"Higor Guilherme Gomes De Santana","354.970.637-75","M",1998-06-23 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",9006.8,25
+1065,"Leonardo Micheli","177.003.770-53","M",2000-10-12 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",8136.12,26
+2711,"Enzo Correia Sugi","089.756.582-71","M",1992-10-17 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",54471.44,172
+92,"Rodolfo Fuller","414.044.386-74","M",1999-09-07 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",48026.25,144
+383,"Robervam Marinho De Souza","096.189.769-07","M",1992-04-24 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",65378.22,180
+85,"Antonio Fagundes","098.428.952-04","M",1992-04-29 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12723.83,41
+2607,"Wagner Ramos Molina Junior","074.788.275-16","M",1992-03-04 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",11944.03,37
+1152,"Hoseias Muzel De Almeida","307.653.585-70","M",1994-06-18 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",10486.34,28
+564,"Henrique Lara Lemes","186.392.016-68","M",1992-01-22 00:00:00.0000000,"CE","CEARA","Camocim","Centro",83480.18,243
+176,"Humberto Da Silva Quesada","321.737.590-44","M",1998-06-28 00:00:00.0000000,"CE","CEARA","Camocim","Centro",74444.4,223
+1236,"Fabio Gulielmi Costa Ramos","162.681.648-94","M",1992-03-16 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",48152.23,136
+1624,"Lucas Gouget Marinho","119.594.210-65","M",1994-01-31 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",41360.96,118
+456,"Thiago Hendler","078.339.356-75","M",1998-12-21 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",11695.24,32
+844,"Francis Muller  Maia Santos","328.412.135-00","M",2000-04-27 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",18851.26,58
+1911,"Tarcisio Francischini Martinazzo Da Silva","365.687.036-98","M",1998-07-26 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",19097.15,60
+941,"Allan Squillace","430.035.898-62","M",2000-03-17 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",21491.02,69
+850,"Mauro Bovo","234.935.242-31","M",1999-10-17 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",34727.59,98
+2014,"Nathan Gabriel Alves De Lima","290.919.540-23","M",1990-07-25 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",40356.44,119
+1238,"Fernando Gomes Pardini","239.413.022-95","M",1999-10-30 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",40312.84,114
+1141,"Willy John Sellis De Souza","323.440.361-37","M",1994-08-22 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",31133.36,89
+1117,"Eduardo Luiz Pina","229.620.922-60","M",1991-05-16 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",35579.51,106
+2669,"Victor Noran Lopes Porcela Da Silva","155.875.468-38","M",1998-06-04 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",35423.64,104
+1990,"Douglas Romano De Carvalho","342.307.145-26","M",1994-07-14 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",32685.05,93
+2279,"Alessandro Duarte","057.950.260-13","M",1993-02-21 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",48928.31,154
+1115,"Edson Soarez Filenti","096.741.868-69","M",1991-10-19 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",43802.09,126
+436,"Fabio Falcao Lopes","224.634.536-53","M",1991-05-08 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",28424.41,73
+240,"Eduardo Pires De Andrade","051.413.450-76","M",1990-09-16 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",19778.22,63
+725,"Vicente Tozzi Yovanovich","402.522.372-12","M",2000-05-04 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",22926.07,64
+2372,"Murilo Augusto Pereira Nascimento","366.003.246-31","M",1998-03-05 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",27487.22,83
+917,"Deucimara Ribeiro De Salles","121.749.176-94","F",1992-02-14 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",26144.45,72
+2490,"Natalia Santanna","283.403.250-89","F",1995-12-30 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",26106.44,80
+2674,"Amanda Da Silva Fernandes","302.361.234-62","F",1999-07-15 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",23083.08,66
+1898,"Rodrigo Barbosa De Oliveira","406.293.561-71","M",1998-03-14 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",19496.95,64
+451,"Rodrigo Da Silva Romero","295.113.081-44","M",1996-07-27 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",14751.16,42
+2197,"Gabriel Augusto Fernandes Silva","364.210.346-55","M",1993-09-14 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",8387.92,22
+2365,"Gustavo Henrique Garrido De Melo","102.645.786-02","M",1995-01-18 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",71270.5,217
+1879,"Guilherme Melchiori Castelo Branco","203.554.233-92","M",1997-05-18 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",24860.93,68
+2461,"Yasmin Furumoto","133.153.868-24","F",1997-05-23 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",25191.26,75
+424,"Rochael Leandro De Andrade","389.069.818-94","M",1994-05-08 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",11553.16,34
+2653,"Thiago Goncalves","310.272.870-98","M",1990-06-01 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",13249.96,41
+1683,"Arthur Pereira Machado","199.410.013-84","M",1994-08-01 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",12177.73,36
+612,"Daniel  Peixoto Gomide","165.698.438-43","M",1999-10-13 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",11701.87,33
+1582,"Gabriel Bomfim De Oliveira","242.416.585-10","M",2000-11-01 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",10342.1,33
+1286,"Fernano De Oliveira Moreira","164.198.455-20","M",1996-11-07 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",19486.15,54
+2728,"Pedro Marques Alencar Leite","169.955.749-18","M",1994-05-30 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",12955.14,37
+495,"Cristiano Alves De Assis","166.931.429-66","M",1993-09-14 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",36933.65,104
+2338,"Luis Henrique Pires Tsujino","383.701.455-80","M",1992-04-17 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",72207.89,213
+1174,"Marcelo Alves Da Silva","285.041.884-43","M",1995-08-02 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",74298.87,210
+2438,"Pedro Henrique Avelino Santos","429.515.848-09","M",2000-09-09 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",10987.23,34
+2331,"Giovana Nelo Furlan","138.230.752-38","F",1997-03-30 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",24797.56,73
+2037,"Ricardo Pereira Braga","420.998.346-31","M",1997-09-24 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",23681.76,76
+1164,"Leonardo C. De Almeida","289.064.519-83","M",1991-06-25 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",25403.41,68
+1162,"Leandro Toledo","226.512.351-46","M",1995-04-13 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",12667.8,38
+289,"Ronilson De Lima Reis","228.166.735-10","M",2000-12-02 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",12302.63,33
+577,"Marcelo Raudenison Dos Santos","101.651.938-11","M",1994-09-23 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",54662.41,167
+1741,"Pedro Henrique Cintra Cardoso","062.345.482-59","M",1999-08-07 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",49234.38,147
+1249,"Leonardo Acciardi De Carvalho","328.976.573-28","M",1995-01-19 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12703.96,37
+1637,"Davi Dos Santos Souza","129.921.495-78","M",1991-09-01 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12065.23,34
+2219,"Ruan Vieira Da Silva","325.832.564-75","M",1999-04-26 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",4686.97,13
+1925,"Sammy Formighieri","394.478.365-00","F",1993-12-22 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",51655.14,146
+1534,"Elen Caroline Do Couto Silva ","110.941.206-42","F",2000-03-30 00:00:00.0000000,"CE","CEARA","Camocim","Centro",79640.01,240
+654,"Marcelo Nobre Da Silva","217.972.232-34","M",1992-02-05 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",43110.34,128
+1622,"Larissa Soares Santos Oliveira","103.934.100-91","F",1999-07-06 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",61452.88,182
+458,"Fernando Torres Milani","192.876.472-79","M",1991-09-28 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",39620.79,120
+2107,"Hemilio Santos","169.570.618-68","M",1991-05-09 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",73127.78,208
+359,"Bruno Gulielmi Costa Ramos","307.773.527-82","M",2000-11-22 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",19750.16,71
+262,"Munir Augusto Abdo Assin","419.081.712-96","M",1992-04-30 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",24167.26,67
+1821,"Bruno Santana De Abreu  ","123.797.699-16","M",1998-09-25 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",20854.34,61
+1724,"Caio Vinicius De Almeida Nunes","104.379.964-04","M",1990-05-20 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",22318.21,61
+948,"Fernando Varella E Silva","323.349.837-10","M",1996-07-03 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",17072.66,48
+2696,"Renan Da Silva Ramos","185.819.189-46","M",1994-04-21 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",12080.07,29
+950,"Jose Gomes Leite Junior","068.121.782-68","M",1999-08-08 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",13079.25,40
+147,"Marcos Chaves De Oliveira","191.728.470-53","M",1994-02-12 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",32533.15,97
+339,"Renato Moura Capanema","312.493.050-13","M",1999-02-19 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",46113.31,124
+2182,"Sergio Augusto De Carvalho","244.170.266-95","M",1998-03-22 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",23352.78,64
+2663,"Gustavo Dos Santos Silva","094.977.632-92","M",1993-11-01 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",23030.13,61
+1402,"Wilson Bulgarelli Guerreiro","071.245.641-65","M",2000-02-02 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",19940.85,60
+1693,"Kelvin Capitan Casassola","146.249.017-59","M",1991-02-14 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",23008.06,64
+2102,"Antonia Santos","148.902.349-36","M",1990-01-13 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",33637.44,94
+1326,"Alberto Fernandes Junior","109.178.492-14","M",1991-08-30 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",29621.65,81
+348,"Alexandre Corsi Abdalla","402.900.031-66","M",1991-10-03 00:00:00.0000000,"PA","PARA","Belem","Condor",12965.48,36
+2288,"Andreia Martinez","385.507.945-56","F",1997-01-04 00:00:00.0000000,"PA","PARA","Belem","Condor",11074.61,33
+831,"Roberto Batista Rodrigues","357.221.100-06","M",1990-11-07 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",26217.81,72
+1995,"Graziella Bonizi","274.581.642-74","F",1998-12-29 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",23652.3,71
+1104,"Alexandre Oliveira Silva","272.540.262-24","M",1993-01-12 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",79271.24,232
+134,"Luciano Batista","369.930.331-98","M",1998-12-05 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",92020.54,270
+1589,"Larissa Silva Correia","280.479.261-94","F",1999-11-10 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",78641.17,238
+1491,"Davi Paulo Simao Ruiz","088.214.143-10","M",1990-05-21 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",22361.96,66
+2364,"Guilherme Dos Santos De Araujo","364.396.232-09","M",2000-05-13 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",25682.68,71
+131,"Leandro Pierri Landim","381.565.621-43","M",1991-02-12 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",10823.92,32
+1194,"Ronaldo Luiz Pereira Silva","376.528.117-23","M",1998-12-31 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",8341.97,20
+2261,"Celio Dos Santos Toloza","174.541.861-19","M",1992-05-14 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",9375.3,29
+2164,"Jorge Eduardo De Moraes","304.311.543-83","M",2000-02-20 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",4838.51,16
+1970,"Paulo Soares De Lima","228.773.415-23","M",1999-06-02 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",8195.35,27
+122,"Douglas Frenham Tinelli","334.618.084-62","M",1991-08-11 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",21371.61,68
+1868,"Diego Pereira Trevisan","389.100.161-24","M",1998-12-07 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",24149.73,69
+1399,"Jacques  Jacob","418.550.086-87","M",1990-04-01 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",50299.53,155
+1108,"Andre Rodrigo Pestana","224.976.686-68","M",1993-01-04 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",59087.49,175
+309,"Daniela Oliveira Garcez","411.932.805-69","F",1995-08-30 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",31317.89,100
+1661,"Ruan Barros Araujo","253.308.269-68","M",1995-10-19 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",11284.05,32
+788,"Carlos Da  Costa Ranieri","313.215.628-63","M",2000-08-05 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",9881.33,33
+1758,"Isabele Ruffo Lopes","083.519.453-88","F",1993-09-18 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",8930.2,25
+2726,"Matheus Ferreira Santana ","244.712.528-18","M",1995-03-04 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",65610.01,198
+1077,"Felipe Angelo De C. Carneiro","282.054.887-90","M",1993-12-07 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",78647.09,234
+1859,"Caio Manoel Almeida Souza","197.811.769-88","M",1991-09-08 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",18057.82,55
+498,"Douglas Panhota Da Silva","089.043.639-03","M",1991-05-30 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",5281.39,15
+2641,"Pedro Celso Rodrigues Filho","070.886.611-14","M",1990-11-01 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",49932.87,144
+1768,"Vanessa Maia Costa E Silva","321.920.414-62","F",1990-01-26 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",40794.98,122
+4,"Beatriz Alvares","174.163.236-88","F",1999-05-10 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",29586.44,94
+1846,"Paulo Victor Da Silva Vescovi ","179.066.159-84","M",1991-08-16 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",18720.34,54
+2622,"Felipe Hideki Minato","157.488.566-53","M",1993-01-25 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",13919.42,46
+1361,"Hugo Castro Santos","077.792.421-32","M",1996-11-07 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",26393.64,76
+8,"Simone De Paula","127.971.175-38","F",1995-07-10 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",25800,1
+2522,"Laura Almeria","157.902.868-28","F",1998-09-13 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",21903.62,59
+1259,"Mona Lisa Galvao De Oliveira","062.988.442-98","F",1998-09-26 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",9946.04,31
+2129,"Pedro Henrique Aquino De Moura","397.555.196-99","M",1996-09-07 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",62608.09,180
+1547,"Tiago Pereira Dos Santos Pinto ","314.660.342-66","M",1990-12-13 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",62542.15,177
+1634,"William Butler Poletto","242.040.908-63","M",1992-06-26 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",46553.79,141
+1537,"Gilberto Dias Soares Jr. ","197.943.947-30","M",1998-01-14 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",53303.55,149
+2313,"Vinicius Ribeiro Oliveira","352.731.952-26","M",1993-08-27 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",47308.4,137
+1149,"Fernando Do Prado Freitas","124.475.934-89","M",1998-07-16 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",51051.9,148
+1049,"Alexandre Alves De Lima","393.847.492-47","M",1995-09-08 00:00:00.0000000,"CE","CEARA","Camocim","Centro",76102.27,213
+1333,"Rodolfo Panhota","058.990.975-00","M",1993-07-02 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",40231.55,127
+266,"Ronaldo Fernando Martins","424.447.301-16","M",1994-07-11 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",43081.55,128
+1430,"Paulo  Barbosa","073.253.838-33","M",1995-07-16 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",55286.77,143
+1527,"Clayton Dias Dos Santos ","133.195.733-34","M",1992-11-27 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",49510.48,133
+1331,"Carlos Barroco","339.874.406-96","M",1995-02-01 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",54296.37,160
+2689,"Lucas Fellipe Menezes Da Silva","064.547.007-21","M",1998-03-19 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",61608.15,184
+1232,"Eliane Lopes Franciscon Da Sil","067.029.126-99","F",1990-05-28 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",22906.82,66
+1820,"Angelica De Barros Ribeiro ","195.217.191-07","F",1997-03-15 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",37800.33,107
+1241,"Ivan De Lima Goncalves","238.664.448-03","M",1991-08-24 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",11890.21,34
+2017,"Rodrigo Marques Dagostin","142.600.604-15","M",1999-04-22 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",9334.06,32
+1823,"Carlos Eduardo De Oliveira ","066.391.720-79","M",1998-06-21 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",10415.73,33
+729,"Leandro Benetti De Sa","234.743.625-94","M",2000-07-06 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",43973.68,124
+2281,"Ana Carolina Viera Rodrigues","403.105.206-67","F",1993-07-18 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",29690.24,94
+1505,"Karlos Bezerra Fernandes","159.209.475-14","M",1992-08-01 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",33547.42,94
+1016,"Hedivani Faioli Rogerio","088.113.472-39","M",1994-06-30 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",21508.85,62
+337,"Raquel Teles Cardoso","311.103.360-89","F",1999-05-04 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",22391.55,64
+626,"Mauricio Mascarenhas Campana","422.406.858-55","M",1994-12-18 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",28346.06,82
+1014,"Guilherme Longanezi","264.966.885-43","M",1996-01-28 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",21572.62,62
+1984,"Ana Lucia Pinto Ribeiro","075.118.670-55","F",1991-03-29 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",19863.51,59
+1132,"Paulo Gustavo Melgarejo","377.374.268-80","M",1998-01-19 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",37419.82,113
+2296,"Patricia Amorin","234.684.091-17","F",2000-11-10 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",38125.89,109
+639,"Jose Antonio Soares De Pinheiro","159.792.279-05","M",1995-10-29 00:00:00.0000000,"PA","PARA","Belem","Condor",8858.19,29
+736,"Marcelo Petronis Lopes","289.030.313-28","M",1991-03-31 00:00:00.0000000,"PA","PARA","Belem","Condor",11131.92,30
+1706,"Carlos Cesar Rodrigues Vieira Junior","410.496.778-37","M",2000-12-15 00:00:00.0000000,"PA","PARA","Belem","Condor",9737.46,29
+1510,"Marcelo Augusto Chazan","064.264.859-11","M",1999-05-11 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",24505.04,71
+2286,"Lourdez Trindade","109.206.129-19","F",1991-09-04 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",22574.08,67
+1219,"Antonio Fernando De Rezende","083.588.420-17","M",1999-02-06 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",19840.31,61
+2682,"Gustavo Henrique Santiago Rocha","332.063.989-24","M",1992-01-09 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",20768.28,61
+1809,"Willy Hung Hsu","114.043.953-22","M",1993-08-13 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",28444.69,77
+936,"Vanessa Marquezin Borsato","216.782.430-94","F",1999-07-23 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",26795.52,72
+1421,"Pedro Luis Pavan","196.705.887-25","M",1994-10-16 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",28262.99,79
+36,"Sandro Carvalho","193.401.243-60","M",2000-09-19 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",21333.27,61
+1006,"Fernando Cirilo De Lima","431.125.220-86","M",1993-07-06 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",23438.61,65
+327,"Marcos Carvalho Santana","416.267.614-50","M",1990-04-05 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",23227.79,63
+133,"Leonardo Puzzello Novo","380.275.292-52","M",1991-08-03 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",19526.58,61
+907,"Aline Marcondes Nanni","152.573.736-55","F",1996-01-09 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",13136.69,35
+2459,"Daniela Rodrigues","221.737.950-52","F",2000-06-27 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",11239.17,36
+713,"Daniela Ferras De Paiva","420.211.598-00","M",1990-09-22 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",9595.34,25
+1873,"Florence Cristina Costa Meireles","316.056.716-77","M",1993-07-22 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",11773.01,38
+1388,"Adriana Ferreira Da Costa","398.581.142-43","F",1999-07-24 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",8884.57,25
+607,"Carlos  Galantini","356.596.661-73","M",1991-07-28 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",22671.57,67
+25,"Paulo Padlipskas","079.079.108-11","M",1990-04-27 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",18910.35,59
+720,"Davi Rosco  Rauh","199.993.328-41","M",1998-12-23 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",52616.13,165
+1593,"Lucas Fernando Yoshioka","131.247.973-05","M",1996-03-09 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",51885.25,167
+2540,"Ariela Guedes","113.381.507-78","F",1996-11-11 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",41096.96,117
+212,"Wellington Hatsuo Yokoyama","292.060.456-76","M",1990-09-01 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",32387.1,98
+2049,"Ana Carolina Mello Boscolo","374.568.416-20","M",1990-05-16 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",11522.66,33
+2435,"Mikael Candiani Tine","234.534.810-81","M",2000-05-21 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",63251.06,193
+1368,"Igor Mugnaini","350.329.393-04","M",2000-05-16 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",71014.89,204
+1271,"Valdemir Aguiar Da Costa","399.760.187-88","M",1999-06-11 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",68550.17,199
+1568,"Gustavo Bispo De Araujo","319.524.189-85","M",1992-12-11 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",18980.68,52
+401,"Andre Costa De Lima Silva","371.270.617-50","M",1999-06-20 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",11093.31,33
+1177,"Misael Cesar De C. Mendes","093.458.113-24","M",1992-06-05 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",12067.61,35
+216,"Wilson Akira Inoue","249.930.759-55","M",1993-01-23 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",39666.31,116
+1089,"Marcos Martins De Oliveira","284.303.592-46","M",1997-03-08 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",44503.94,134
+1865,"Danilo De Freitas Rocha","102.963.594-76","M",1999-09-15 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",47634.24,151
+214,"William Firmino Paula","390.873.441-85","M",1996-10-02 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",38200.73,100
+2445,"Sara Gotado Cajuy Da Silva ","323.715.695-46","F",1995-10-16 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",32068.35,98
+2348,"Vitor Almeida De Souza","381.315.673-63","M",1999-12-23 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",33073.19,98
+780,"Otavio  Benetti  Da Costa","302.836.542-30","M",1995-04-20 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",38751.8,107
+877,"Ricardo Francis Mendes Lima De Jesus","112.326.237-86","M",1992-08-22 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",32898.42,102
+2623,"Fernando Boschetti Julio","215.240.440-58","M",1991-04-30 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",31032.45,88
+1943,"Diego Pedreira Ribeiro","427.076.771-72","M",1990-10-02 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",23134.89,65
+2234,"Valdomiro Trapella","207.370.698-85","M",1995-09-08 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",19164.09,61
+2137,"Denis Roberto Ferreira Petinelli","142.411.057-04","M",1990-11-19 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",12307.48,39
+2138,"Ednardo Lopes Queiroz","243.543.468-34","M",1997-01-31 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",20598.71,61
+2720,"Henrique Hiromi Alexandroni Shoji","247.485.169-29","M",1999-12-15 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",26214.34,78
+1843,"Marcelo Roberto Silva Rigoni ","357.901.014-12","M",1996-05-22 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",24753.81,74
+1261,"Patricia Teixeira Schiavon","296.858.761-29","F",1994-11-20 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",23548.9,66
+2425,"Joao Carlos Silva Muniz","192.772.410-65","M",2000-06-20 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",23007.1,67
+1940,"Cesar Augusto Nobre Machado Filho","127.224.480-13","M",1992-10-21 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",31838.94,86
+485,"Yoshitada Kashiwaba","283.634.341-31","M",1993-10-03 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",6379.37,20
+95,"Vanessa Pires Da Mota","102.568.772-82","F",1994-04-08 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",8021.77,23
+1831,"Igor Montini Denone ","398.889.082-86","M",1990-01-07 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",11062.93,37
+2507,"Lais Nogueira","248.704.744-25","F",1992-09-22 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",44103.04,131
+82,"Michel Zagatto","340.034.535-72","M",1998-07-11 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",46033.86,137
+79,"Ana Maria Trindade","339.223.749-44","F",1997-04-11 00:00:00.0000000,"CE","CEARA","Camocim","Centro",70715.09,208
+945,"Fabiano Aparecido Da Silva","183.489.002-98","M",1993-11-17 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",46014.37,127
+1818,"Alexandre Guia Ferraro ","335.804.057-80","M",1998-12-30 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",40414.34,126
+264,"Renato Valenca Pereira","118.915.989-77","M",1992-10-29 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",70608.01,212
+2010,"Letticia Dias Cardomingo","384.944.452-65","F",1999-01-22 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",70471.14,197
+165,"Andrea Regina Sanches","248.530.778-73","F",1997-05-07 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",21165.99,63
+1329,"Clovis Bragato","074.349.392-12","M",1997-12-26 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",17299.48,51
+2008,"Leonardo Aparecido Ferreira De Souza Silva","412.927.387-73","M",1991-02-27 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",24648.19,67
+1626,"Mateus Ramos Martins","073.343.634-41","M",1994-12-20 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",36300.76,102
+463,"Gabriel Pereira Arantes","138.857.472-90","M",1997-05-02 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",8837.16,24
+657,"Antonio  Rodak Ferraz","410.810.197-35","M",1997-07-27 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",24062.13,78
+2599,"Rovaine De Sena Costa","114.683.438-62","F",1992-04-04 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",10414.05,31
+1920,"Ricardo Fabbro Antonelli","353.125.560-76","M",1996-02-19 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",9021.03,27
+1629,"Paloma Rangel Rocha","299.453.473-57","F",2000-04-24 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",9256.5,27
+2378,"Stephane Cristini Ribeiro Fernandes","145.534.764-48","F",1999-07-06 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",38533.74,104
+1794,"Matheus Grunig Barbosa","088.805.943-30","M",1997-12-18 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",46558.65,133
+1697,"Pedro De Sousa Martins","192.581.890-02","M",1996-10-29 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",50331.49,143
+1792,"Luis Gustavo Felix Agune","203.250.603-48","M",1999-02-20 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",21437,61
+1113,"Danilo Lopes Fino","116.860.085-96","M",1997-08-24 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",24825.98,76
+938,"Wellington Walace Braga","319.009.857-09","M",1990-12-05 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",36897.46,102
+453,"Rodrigo Ribeirao Geraldi","364.771.645-65","M",1992-08-09 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",16173.6,47
+1221,"Celso Rodrigues","084.432.724-58","M",1990-01-17 00:00:00.0000000,"PA","PARA","Belem","Condor",10421.55,31
+542,"Marcelo Massahiro Taniguchi","387.088.669-53","M",1997-11-30 00:00:00.0000000,"PA","PARA","Belem","Condor",12298.84,29
+152,"Moises Elias Do Prado","220.076.229-27","M",1994-02-17 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",24331.35,71
+55,"Paula Da Costa Tavares","075.903.020-82","F",2000-08-09 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",17333.59,57
+839,"Eric Palugam","401.739.066-19","M",1999-01-09 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",21845.31,63
+2391,"Carlos Eduardo Hayashi","115.054.252-34","M",1992-10-02 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",23146.17,67
+1033,"Marcos Daniel Navas Munoz","150.606.532-21","M",1996-04-22 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",21872.74,56
+1227,"Daniel Roggeri Rosa","113.078.683-06","M",1994-11-18 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",20959.56,69
+1004,"Felipe Dos Santos Vicente","276.075.724-50","M",1993-07-03 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",11166.64,31
+1198,"Ruy Pereira Santos","254.795.275-01","M",1992-08-18 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",13456.74,41
+2265,"Tamirez Botelho","271.298.248-74","F",2000-04-09 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",9119,32
+224,"Andre Daniel Ferreira","139.452.834-87","M",1991-08-20 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",11467.18,34
+2256,"Vanessa Martinez","201.871.954-59","F",1997-11-20 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",19754.46,62
+1092,"Michelle Zakel","407.950.527-37","F",1993-10-14 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",22316.76,64
+2175,"Michelle Marques Rosa","273.489.355-21","F",1992-05-29 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",30338.85,88
+914,"Cintia De Souza Florencio","320.044.653-53","F",1991-10-23 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",58379.12,172
+988,"Victor Yukio Nakandakari","374.627.561-72","M",1993-12-17 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",33066.92,106
+885,"Wesley Bezerra Da Silva","406.876.532-03","M",1998-02-12 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",7462.68,22
+1952,"Gustavo Consales","075.407.402-39","M",1990-04-22 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",10776.99,32
+1083,"Jean De Jesus Alves","144.441.855-99","M",1998-11-23 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",25338.83,72
+1956,"Joao Marcos Duraes Moura","055.825.654-21","M",1992-08-26 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",23366.26,71
+1180,"Regis Piaceski Do Nascimento","073.088.641-50","M",1998-01-23 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",20942.54,60
+1468,"Marcelo Makoto Kina","414.924.019-43","M",1993-04-07 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",10161.14,30
+119,"Carlos Eduardo Goncalves De Li","061.697.797-55","M",2000-07-29 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",55289.78,152
+2544,"Maria Conti Silva","279.439.236-19","F",1993-08-24 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",42801.05,137
+2350,"Guilherme Santana Risseto","234.789.587-40","M",1997-08-03 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",43818.71,119
+2526,"Yasmin Oliveira Santos","082.800.076-28","F",1996-11-17 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",32254.37,93
+1168,"Luis Fabiano Da Silva","166.486.488-31","M",1991-09-13 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",32931.09,98
+3,"Silvio Santos","219.067.558-24","M",1991-04-08 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",22173.14,65
+2040,"Rodrigo Simionato ","338.696.747-46","M",1998-06-30 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",25740.13,72
+2428,"Leonardo Andrade Antunes De Bem","345.015.457-24","M",1997-02-21 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",28943.68,81
+1459,"Jose Rufino Merino","289.998.780-14","M",1999-04-12 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",32046.45,86
+295,"Silvia Maria De Aleluia","267.918.341-36","F",1991-08-14 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",28977.64,87
+1847,"Pedro Moreno Dias Pereira Garcia ","354.765.714-90","M",1994-03-28 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",37399,107
+1358,"Roger Carvalho  Dos Santos","288.876.850-03","M",1998-07-28 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",22170.35,68
+1649,"Joao Vitor De Moraes Ribeiro","345.708.105-76","M",1998-03-12 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",26794.78,72
+2132,"Alexander De Oliveira Santos","317.997.061-20","M",1992-05-15 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",9859.36,33
+1450,"Carlos Alberto Sanches","281.050.480-85","M",1995-11-04 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",47337.05,149
+1838,"Luciano Xavier Pereira ","069.678.874-12","M",1990-12-07 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",58375.09,182
+1346,"Leandro Macedo De Abreu","191.138.399-08","M",1993-10-18 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",6681.48,22
+1631,"Rogerio Pizzo Dos Santos","298.304.221-20","M",1990-12-17 00:00:00.0000000,"CE","CEARA","Camocim","Centro",86685.01,255
+2213,"Mateus Bergamini Chaves","159.841.456-45","M",1994-08-16 00:00:00.0000000,"CE","CEARA","Camocim","Centro",41520.83,115
+169,"Cleber Stenio Alves Dos Santos","377.382.175-58","M",1999-03-21 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",48667.34,150
+1525,"Rafael Silva Nascimento","059.635.363-37","M",2000-08-01 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",66925.04,198
+553,"Thais Calado","193.271.546-77","F",1992-11-28 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",23176.35,62
+1814,"Vitor Ataide Lopes","283.397.659-20","M",1995-11-30 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",26454.61,77
+1426,"Marcos  Da Costa Nogueira","313.830.537-74","M",1993-10-25 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",18808,55
+1529,"Danilo Bartholomeu Carneiro ","137.406.902-57","M",1991-02-07 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",27202.75,86
+2111,"Frederico Lopes","239.783.494-29","M",1996-05-29 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",37891.44,113
+2402,"Lucas Fernandes Godoy","150.766.765-96","M",1995-04-05 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",32970.74,99
+754,"Fernando Miyahira Ribeiro","412.410.236-69","M",1998-09-28 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",22717.92,65
+172,"Daniel Franciulli Santos","060.513.950-48","M",1999-07-23 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",13774.44,53
+2306,"Cintia Gonella Jardim Louzano","171.750.270-25","F",1996-01-23 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",25188.01,71
+2403,"Mike Vildoso Freire","069.133.810-53","M",1998-09-16 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",28895.13,82
+465,"Joao Daniel De Cerqueira","069.462.948-60","M",1995-12-18 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",7784.96,23
+2572,"Fernanda Lins Rossi","294.416.415-26","F",2000-02-07 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",33093.31,88
+50,"Eloisa Goncalves","117.927.054-83","F",1992-05-31 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",30972.55,87
+145,"Marcio Roberto De Souza Godoi","216.140.594-09","M",2000-06-21 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",50130.27,144
+48,"Leticia Da Fonseca","117.844.969-26","F",1997-07-10 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",46377.25,129
+2085,"Matias Salerno Cerniciuc","398.590.053-62","M",1994-07-10 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",41629.69,116
+1404,"Marcelo Rodrigues Da Fonseca","215.376.668-97","M",1992-03-28 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",18576.8,59
+822,"Caio Fernandes De Assis","079.501.033-17","M",1999-08-13 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",25298.99,81
+2374,"Pedro Gabriel Da Costa Vieira Oliveira","074.469.208-74","M",2000-11-27 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",24327.92,68
+2083,"Mario Kei Yamaguchi","205.752.599-89","M",1992-10-18 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",22213.99,66
+143,"Marcelo Willian Martins De Brito","105.561.009-53","M",1992-09-07 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",25633.35,72
+2665,"Leandro Da Silva Fernandes Falbo Filho","091.289.392-46","M",2000-03-28 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",17749.97,57
+1891,"Luciano Alvarenga Maciel Pires","161.763.767-89","M",1997-10-25 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",44790.1,123
+238,"Douglas Tadeu B. De Oliveira","195.794.288-28","M",1995-06-22 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",19168.52,64
+251,"Fernando Henrique Ewbank","074.267.157-56","M",1999-08-23 00:00:00.0000000,"PA","PARA","Belem","Condor",15079.67,41
+2385,"Antonio Sassine Mendonca","210.499.691-17","M",1990-10-26 00:00:00.0000000,"PA","PARA","Belem","Condor",13785.62,38
+2191,"Bruno Yudi Tiyoda","085.924.198-81","M",1992-06-09 00:00:00.0000000,"PA","PARA","Belem","Condor",6930.54,19
+2094,"Rafael Rodrigues Massi Vieira","385.265.290-42","M",1997-01-15 00:00:00.0000000,"PA","PARA","Belem","Condor",13214.56,38
+1801,"Thiago Batista Coutinho","271.059.198-22","M",1991-03-01 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",23304.23,70
+645,"Renato Valenca Trancredo","066.623.078-82","M",1998-06-06 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",27011.64,77
+1906,"Paulo Horacio Reinaldo Satiro","416.994.472-87","M",1990-08-11 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",22607.49,62
+522,"Rodney De Oliveira Santos","427.842.806-43","M",1995-03-31 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",79997.3,236
+2074,"Luana Marcelino Filgueiras","420.608.917-67","F",1997-07-22 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",80318.99,228
+2655,"Victor Comin Furriel","277.625.970-15","M",1991-11-12 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",24525.55,73
+422,"Michel Belchior","206.810.422-33","M",1996-09-20 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",7380.52,21
+716,"Bruno Filenti","190.425.666-85","M",1996-01-20 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",79344.87,228
+1291,"Carla Gomes De Moura Varjao","106.610.374-09","F",1996-09-02 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",9375.84,25
+2644,"Rafael Silva Dos Anjos","104.102.703-90","M",1998-02-26 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",25985.5,72
+1480,"Victor Moriyuki Kurauchi","144.800.664-11","M",1993-01-01 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",21112.21,59
+2547,"Valentina Bigtelli","370.309.956-74","F",1999-11-24 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",22511.2,68
+2466,"Lis Santanna","318.127.069-29","F",1994-04-26 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",50901.18,140
+2272,"Elora Da Costa Pires","222.249.889-63","F",1994-06-13 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",63032.08,182
+1787,"Joab Vitor Da Silva","155.107.513-57","M",1997-11-30 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",57744.01,173
+526,"Vitor Hugo Castro Santos","394.059.489-40","M",1999-04-04 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",58740.91,170
+400,"Adilson De Brito","366.683.338-80","M",1991-02-03 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",12770.98,37
+1659,"Rafael Luiz Pereira Bueno","318.948.196-85","M",1992-02-23 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",70774.41,203
+398,"Guilherme Santin Moraes Guerra","131.285.765-50","M",1999-03-30 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",63298.85,192
+2047,"Vandira De Souza M. Delgado","102.865.423-21","F",1993-07-22 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",67305.13,199
+986,"Valmir Guimaraes Martins","323.992.107-72","M",1996-11-12 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",26092.65,73
+2344,"Rafael Moriconi","292.270.899-37","M",2000-09-30 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",19534.95,61
+1471,"Raphael De Souza Oliveira","367.922.541-22","M",1990-11-14 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",21236.4,65
+2150,"Pablo Henrique Antico Siqueira","228.753.076-39","M",1995-09-09 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",12344.62,35
+1759,"Ismael Santos De Franca","315.922.767-22","M",1991-01-09 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",11994.08,36
+604,"Rogerio Lourenco De Lima","217.265.972-98","M",1990-09-12 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",50371.24,147
+2059,"Ernani Ferreira Dos Santos","426.057.925-29","M",1990-06-09 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",39495.35,121
+876,"Paulo Marcos Bastos Da Silva","229.186.482-00","M",1999-02-01 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",23147.58,70
+1458,"Marcos Lopes Garcez","076.964.493-35","M",1994-08-04 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",23290.76,70
+391,"Alexandre Corsi Abdalla ","128.548.119-96","M",1991-11-09 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",21592.91,62
+488,"Andre Luis Molero","193.766.089-34","M",1990-10-04 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",12009.6,36
+1652,"Lucas Cavalcanti De Paula","360.436.803-29","M",2000-05-17 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",24564.37,70
+392,"Leandro Navarro Nunes ","153.167.204-38","M",1997-08-21 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",34589.96,100
+194,"Rubens Callado","087.475.892-92","M",1993-10-11 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",23849.38,70
+2326,"Emily Keyt Manfrin","187.138.233-17","F",2000-05-25 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",14560.92,40
+2226,"Carmela Ferreira","212.528.640-12","F",1990-04-26 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",31442.57,92
+674,"Vitor Miranda De Sa","364.141.213-26","M",2000-05-08 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",58123.85,163
+1443,"Celio De Almeida Polvora","130.053.850-27","M",1991-09-19 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12235.09,33
+1246,"Kelly Cristina Plata","091.886.109-98","F",1992-08-29 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",47168.77,138
+1731,"Gustavo Miguel Machado Dos Santos","258.370.551-67","M",1991-04-28 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",44313.19,127
+1440,"Ricardo Brito Da Costa","417.397.223-00","M",1999-02-12 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",40191.31,111
+661,"Clayton Bergamo Dos Santos","287.010.969-43","M",1991-05-09 00:00:00.0000000,"CE","CEARA","Camocim","Centro",82897.19,245
+2012,"Marcos Da Silva Junior","129.192.831-99","M",1993-11-05 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",48098.03,143
+751,"Alvaro Ferreira Dias","368.691.446-61","M",1996-09-01 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",50678.37,149
+1040,"Rinaldo Diego Da Silva","221.276.480-04","M",1999-11-28 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",69309.63,209
+1137,"Ricardo Silva Moreira","160.439.886-71","M",1991-03-12 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",73080.17,207
+268,"Alberto Alves Junior","364.963.898-28","M",1992-07-14 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",38854.22,111
+2208,"Jonas Muniz De Souza","336.256.934-72","M",2000-08-12 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",15805.43,48
+559,"Fabio Eidi Iqueuti","229.931.713-14","M",1994-09-11 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",32352.48,98
+2694,"Priscila Nastacio Fernandes De Sa","256.270.313-22","F",1996-11-09 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",21937.37,74
+1144,"Basilio Ferreira Dias","382.315.026-32","M",1995-07-04 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",10224.21,32
+341,"Rodrigo Dias Yoshikawa","234.232.274-90","M",1996-10-12 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",33194.97,101
+2376,"Rodrigo De Almeida Barbosa","108.555.204-83","M",1995-09-12 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",48154.55,136
+1018,"Israel Montenegro Arantes","343.821.745-46","M",1997-03-20 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",44050.03,131
+630,"Pedro Henrique Olsen Galantini","097.548.093-70","M",1994-09-11 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",38400.94,109
+1598,"Nathalia Manso Kozlowski Pitombeira","142.062.826-59","F",2000-10-15 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",26796.59,68
+1695,"Marcelo Heiji Shibuya","065.766.306-10","M",1996-02-10 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",20226.25,64
+432,"Andre Luis Cezar Siqueira","179.440.485-45","M",1995-09-23 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",8351.18,26
+259,"Marcelo Alves Simoes","294.443.934-88","M",1998-05-31 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",33432.03,93
+1811,"Victor Ramos Lima","137.674.070-24","M",1993-03-15 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",34780.07,104
+647,"Ronaldo Da Fonseca Martins","055.744.689-49","M",1999-01-12 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",41977.54,122
+346,"Adilson Gomes Antunes","335.358.938-96","M",1998-01-24 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",24459.48,70
+734,"Marcio  Pavan Santinni","151.118.840-55","M",1993-02-04 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",21232.17,62
+2488,"Bianca Lima","420.950.275-32","F",1993-10-05 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",22592.72,71
+231,"Daniel Cardoso Peixoto","157.051.497-49","M",1990-01-18 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",86138.47,248
+1492,"Eder Carlos Mendes De Almeida","144.888.445-90","M",2000-08-25 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",80661.43,229
+1200,"Sergio Cruvinel Borges","389.344.610-35","M",2000-01-12 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",23845.82,64
+1295,"Roberto Torres Milani","325.240.146-49","M",1995-10-09 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",11636.04,34
+2168,"Layssa Martins Damasceno","278.644.303-50","F",1999-07-22 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",6336.88,19
+1586,"Henrique Barboza De Moura","110.720.386-84","M",1990-04-26 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",11597.33,31
+321,"Gabriel Corassa","372.757.885-69","M",1993-07-21 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",10782.68,25
+30,"Sandro Pereira","054.971.019-43","M",1991-11-22 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",8967.94,28
+2552,"Alicia Gregorio","064.302.211-23","F",1995-11-02 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",12432.97,41
+1577,"Carlos Augusto Sakitani","097.894.033-16","M",1990-01-26 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",18489.62,55
+138,"Marcelo Henrique Tomaz","255.957.288-52","M",1993-03-12 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",53786.41,157
+600,"Alcides Goncalves Filho","351.228.053-92","M",1998-05-13 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",30664.99,90
+1473,"Rodrigo Perrone","244.588.706-93","M",1993-12-25 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",39922.35,116
+2346,"Thais Russo De Freitas avila","197.088.126-36","F",2000-06-21 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",23606.76,70
+1273,"Vera Lucia Morgado","250.718.931-21","F",1998-08-05 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",14847.94,38
+691,"Mickael  Quirino Bueno","309.872.676-78","M",1999-06-08 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",12964.07,43
+2534,"Larissa Pires","331.663.556-64","F",1994-09-17 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",13663.75,40
+1562,"Thiago Correa De Oliveira Jesse","062.830.574-72","M",1997-03-05 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",71458.38,204
+592,"Wellington Frias Brito Da Costa","218.135.318-56","M",1997-01-08 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",73269.34,215
+1950,"George Luis Alves De Oliveira","390.932.675-89","M",1994-05-28 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",71510.89,213
+1374,"Maira De Lourdes Pastore","295.532.991-80","F",2000-10-16 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",20945.47,58
+501,"Felipe Chiste Drummond Aguiar","285.594.600-14","M",1993-09-25 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",9080.75,33
+1080,"Fernando Eduardo G.Ribeiro","368.404.260-22","M",1993-01-03 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",14596.39,40
+692,"Paulo  Trevisan Paiva","103.690.356-71","M",1996-06-07 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",11446.82,34
+1371,"Gustavo Gasparetto","118.946.354-87","M",1995-09-23 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",9172.54,28
+789,"Reginaldo Lopes Piaceski","262.049.338-22","M",1993-06-02 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",10892.08,29
+304,"Carlos Eduardo Esteves","198.883.212-80","M",1995-08-28 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",11305.68,36
+207,"Victor Augusto De Oliveira Neto","322.696.802-77","M",1997-07-09 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",9480.82,32
+2147,"Luiz Paulo Rodrigues Da Silva","118.889.694-42","M",1992-09-12 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",3192.83,13
+798,"Marcos Lopes  Botelho","068.203.319-43","M",1996-04-24 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",45797.44,128
+1477,"Tatiana Milena Scarmin Astorin","332.655.282-19","F",2000-03-31 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",41946.14,129
+2542,"Laura Guimaraes","312.873.930-01","F",2000-03-29 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",34981.64,103
+973,"Rogerio Mussi Lepore","249.262.774-06","M",1993-04-27 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",29993.22,83
+970,"Rodrigo Pires","084.945.077-28","M",1990-07-14 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",25615.46,70
+1062,"Helio Akihito Uehara","202.768.746-82","M",1991-01-05 00:00:00.0000000,"AP","AMAPA","Macapa","Santa Rita",52942.89,154
+958,"Richard De Souza Ferraresi","106.198.744-77","M",1999-04-02 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12711.5,35
+1055,"Clelia Aparecida Luduvico","124.464.164-75","F",1997-01-03 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12760.85,37
+473,"Rafael Panazzo Roizman","278.093.635-74","M",1996-09-10 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",5086.94,15
+2119,"Joao De Almeida Barros","310.934.520-01","M",1998-05-28 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",46716.7,144
+1922,"Rodrigo Bueno Ferreira","405.657.392-74","M",1997-04-10 00:00:00.0000000,"CE","CEARA","Camocim","Centro",91478.04,255
+1042,"Stefano De Carvalho Veloso","114.612.516-53","M",1997-02-23 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",44357.12,132
+2109,"Jose Ricardo Ramos","329.556.489-42","M",2000-07-21 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",43214.5,127
+1139,"Rogerio Ramalhoso","056.730.617-73","M",1991-02-12 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",51491.71,145
+361,"Carlos Eduardo De Castro","424.655.597-00","M",1990-10-02 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",64735.3,193
+650,"Anderson Sousa  Vittall","344.043.260-49","M",1994-04-29 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",25342.08,74
+1917,"Rafael Chaves Bemerguy","179.600.762-20","M",1998-12-17 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",37395.65,100
+2112,"Maria Do Carmo Faria","260.878.566-36","F",1996-08-25 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",20806.93,59
+1239,"Fernando Roberto De Toledo Cam","305.002.220-54","M",1991-03-16 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",29436.68,87
+1530,"Danilo Carlos Rodrigues ","239.209.492-58","M",1993-12-04 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",21493.99,64
+2114,"Marcela Vilas","369.720.196-80","F",2000-09-11 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",8019.21,27
+2308,"Felipe Rocha","283.512.134-88","M",1997-06-14 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",12321.5,33
+1532,"Diego Figueiro Dias ","161.688.443-44","M",1994-12-25 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",11063.93,31
+1699,"Raissa Santos Da Cruz","335.478.444-68","F",1993-02-06 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",38648.38,105
+242,"Evandro Badia","227.859.395-24","M",1995-03-13 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",47237.13,131
+1309,"Paulo  Ferreira Portoju","076.355.801-21","M",1996-06-08 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",47517.27,134
+141,"Marcelo Pereira Ramos Rodrigues","084.660.116-93","M",1999-01-27 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",21109.01,70
+1790,"Leandro Venancio De Anadrade","143.787.196-22","M",1996-11-18 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",24183.77,62
+1229,"Eduardo Ruiz","287.195.071-93","M",1998-11-18 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",27100.96,80
+2684,"Joao Batista Souza Do Nascimento","254.768.598-77","M",1993-03-04 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",36909.89,103
+154,"Rafael Andrade Bueno Maganete","318.474.925-19","M",1995-01-12 00:00:00.0000000,"PA","PARA","Belem","Condor",12528.97,42
+1704,"Breno Sapucaia Dos Santos Magalhaes","310.383.845-29","M",1991-11-25 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",23282.94,65
+928,"Marco Antonio Francischette","259.050.511-55","M",1994-08-21 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",20325.52,58
+548,"Rodrigo Correa Da Silva","381.339.309-44","M",1992-05-15 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",18172.49,52
+2268,"Leandra Petrellla","388.337.167-80","F",1993-05-26 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",76452.62,220
+618,"Diogo Gaiga De Magalhaes","157.469.968-39","M",1998-09-12 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",22714.39,68
+1685,"Demetrio Alves Atra","358.607.276-08","M",1993-03-06 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",21645.11,61
+1877,"Givonaldo Da Silva","426.638.162-44","M",2000-08-06 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",15978.66,41
+2062,"Fabiano Flores Lima","129.965.489-24","M",1993-04-03 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",24593.91,72
+1189,"Rodney Botelho","197.698.043-13","M",1996-04-30 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",20532.97,63
+1205,"Valter Ferreira Candido Jr.","221.124.250-40","M",1991-08-08 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",63250.14,178
+817,"Weldon Ferraz Petrella","264.113.909-07","M",1991-08-04 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",55261.88,167
+41,"Andre Teixeira","111.791.424-15","M",1996-12-10 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",54951.37,158
+1861,"Cesar Junior Eloia Da Silva","351.502.782-86","M",1991-04-08 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",32469.15,99
+1085,"Jimmy Danilo Ferraz","288.342.989-42","M",1996-09-30 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",35414,109
+1756,"Gustavo Gonzaga Ribeiro","207.801.305-81","M",1992-12-26 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",74187.97,204
+2247,"Benedita  Crasso","396.318.444-61","F",1993-07-10 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",20831.61,63
+307,"Daniel Carnielli","329.826.894-08","M",1999-09-21 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",23871.98,69
+2053,"Cristiano Gomes De Moura","285.012.277-04","M",1991-07-25 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",22671.91,63
+983,"Tatiana Fernandes","269.491.225-38","F",1997-11-30 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",14169.72,34
+2341,"Oswaldo Gomes Moreira","383.470.405-97","M",1996-10-09 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",10645.22,32
+701,"Ageu  Almeida Francisconi","167.279.888-61","M",1994-03-04 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",49154.36,140
+992,"Almir Rogerio Stefano","251.341.248-08","M",1996-11-25 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",44844.29,128
+2253,"Suzana Ramalho Da Costa","429.702.190-36","F",1995-08-24 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",40468.79,120
+1863,"Daniel Costa Barbosa Da Cruz","222.200.981-37","M",2000-11-16 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",33401.09,104
+2154,"Vitor Di Leo Moreno","322.980.027-37","M",1991-05-17 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",16100.85,47
+101,"Israel Novaes De Almeida","071.564.585-86","M",1990-03-04 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",33764.83,100
+1555,"Lucas Kazuaki Takahira Tsunokawa","362.840.756-82","M",1992-09-25 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",21956.1,65
+489,"Bruno De Souza Medeiros","341.634.178-73","M",2000-03-12 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",15921.89,42
+776,"Afonso Ferraz Violli","327.440.531-63","M",1995-01-25 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",21785.05,67
+580,"Fernando Lima De Aguiar","254.891.912-26","M",1997-01-09 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",9411.59,31
+2413,"Gustavo Dalberto Muller","097.534.429-01","M",1993-11-22 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",9428.5,28
+2704,"Andre Beolchi De Arruda Garbini","205.811.403-17","M",1995-03-17 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",13880.23,36
+2316,"Felipe Sanches","290.793.141-30","M",1999-03-08 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12685.91,37
+2025,"Jorge","267.214.897-31","M",1992-11-11 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",9339.9,26
+2022,"William Tahira Rabaldeli Dos Santos","234.880.853-63","M",1998-02-03 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",42989.5,127
+2410,"Layon Xavier Guimaraes","204.556.406-18","M",1991-02-10 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",45411.35,141
+2701,"Ricardo Jacomassi","081.815.410-69","M",2000-02-16 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",39598.13,124
+955,"Mirian Da Aparecida Monzani","116.903.004-55","F",1990-05-09 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",40791.72,117
+467,"Karina Pereira De Lima","362.746.423-11","F",1999-03-14 00:00:00.0000000,"CE","CEARA","Camocim","Centro",37581.03,112
+2019,"Thyago De Souza Pozzibon","205.966.798-79","M",2000-07-17 00:00:00.0000000,"CE","CEARA","Camocim","Centro",80695.41,251
+2303,"Joana Oliveira Da  Cruz","263.950.631-25","F",1991-07-24 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",47948.77,144
+2396,"Gustavo Dalla Torre Bin","239.424.915-39","M",1998-03-01 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",23177.1,59
+2687,"Leonardo Lima De Souza","306.819.053-91","M",1990-10-24 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",31176.57,84
+1523,"Wilson Akira Matsuoka Junior","336.539.996-34","M",1999-03-05 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",21128.15,66
+74,"Ana Paula Viera Rodrigues","059.083.524-07","F",1991-03-26 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",28071,92
+560,"Farney Franco G Da Silveira","176.740.428-64","M",1994-05-24 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",23793,69
+1433,"Rafael Medeirosda Costa","309.174.399-01","M",1999-08-21 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",28809.33,81
+2502,"Yasmin Silva","187.477.165-23","F",2000-12-23 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",11534.46,32
+562,"Gessiel Ferreira De Lima Jr.","269.975.492-78","M",1991-03-26 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",10025.88,28
+1893,"Pedro Henrique Lelis Oliveira","177.717.283-67","M",1990-11-04 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",34233.86,101
+2087,"Morris Litvak Junior","124.161.469-46","M",1993-12-29 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",32515.3,91
+2473,"Livia Moreira","414.145.989-35","F",1993-05-17 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",48392.73,135
+1212,"Adriana Franco Pereira","396.190.827-12","F",1998-05-21 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",48700.1,138
+1889,"Lucas Da Silva Fernandes","262.730.933-60","M",1992-07-27 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",20669.91,58
+2180,"Samuel Alves Hota Dos Santos","256.248.191-33","M",1994-08-26 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",12653.37,38
+628,"Fabio Gomes Francisconni","261.614.578-20","M",1996-09-09 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",28524.89,79
+2005,"Kelvin Sampaio Teixeira","277.110.084-51","M",1991-02-06 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",33686.33,101
+1617,"Gabriel Lucas Alves Da Silva","413.058.896-71","H",1998-10-31 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",27442.77,80
+1423,"Arthur  Rubens Pieroni","082.147.276-74","M",1992-12-16 00:00:00.0000000,"MS","MATO GROSSO DO SUL","Campo Grande","Centro",32799.83,103
+2579,"Hugo Ricardo Pereira Da Silva","159.122.602-67","M",1999-06-13 00:00:00.0000000,"PA","PARA","Belem","Condor",13558.55,43
+2577,"Henrique Rodrigues Dantas","191.505.089-74","M",1992-08-27 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",27843.83,78
+2294,"Fernanda De Farias Brito","318.268.860-84","F",1999-12-16 00:00:00.0000000,"MG","MINAS GERAIS","Belo Horizonte","Centro",21765.52,67
+813,"Mario  Ferreira Candido","259.428.770-91","M",1990-08-05 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",78200.13,228
+425,"Rogerio Tadeu Bento De Souza","278.993.957-49","M",1996-12-17 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",39337.63,111
+1977,"Vitor Aguiar E Silva Ribeiro","197.976.416-20","M",1990-08-15 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",80576.21,228
+37,"Eliane Soarez","422.164.812-22","F",1991-09-06 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",66652.83,214
+909,"Andre Fernandes Esteves","073.324.344-67","M",1994-03-14 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",23391.39,77
+1394,"Genildo Ferreira De Lima","371.968.552-11","M",1995-07-09 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",20376.09,61
+1297,"Ferdinando De Castro Freire","136.735.567-87","M",1991-06-01 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",25264.8,72
+519,"Pryscilla Nascimento","125.148.021-09","F",1990-08-10 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",7119.05,26
+2649,"Robert De Souza Dias","102.910.687-55","M",1992-05-09 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",9634.43,28
+1000,"Ezequiel Cordeiro","136.084.894-90","M",1996-06-08 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",11848.55,36
+2450,"Carol Silveira","104.462.947-25","F",1990-03-05 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",22505.69,63
+1884,"Jennifer Santos Hamid","421.159.444-03","F",1995-10-15 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",58240.77,175
+332,"Monica Welfer","408.401.383-44","F",1994-12-13 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",51555.99,150
+406,"Claudio Henrique Tiburtino Naz","212.589.251-31","M",1992-04-01 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",32218.18,101
+1570,"Raissa Arcanjo Nascimento","138.509.526-13","F",1990-08-01 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",29223.43,86
+689,"Mauro Ribeiro Trancoso","090.015.171-91","M",1999-03-12 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",68480.55,213
+2635,"Lucas Souza Brandao","176.706.097-92","M",1993-10-21 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",26695.15,82
+1565,"Leticia De Oliveira Soares","232.883.254-98","F",2000-08-06 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Ermelino Matarazzo",11581.84,33
+117,"Bruno Felipe Hildebrando","309.095.065-85","M",1998-05-25 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",34337.43,98
+602,"Alison Ferreira Dos Santos","086.449.239-73","M",1994-10-19 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",35115.6,105
+990,"Welton De Jesus Justino","398.664.151-43","M",1992-10-23 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",33915.91,107
+796,"Arthur Vinuela Garre","245.961.372-01","M",1995-07-08 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",23182.55,67
+2332,"Guilherme Aversa Ferreira","240.585.860-87","M",1996-07-10 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",37692.9,110
+1750,"Bruno Dos Santos","220.439.017-45","M",1991-05-29 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",40523.35,104
+582,"Aparecida Bello Sais","239.183.757-58","F",1995-03-06 00:00:00.0000000,"AC","ACRE","Rio Branco","Centro",23370.93,68
+1550,"Juliana Gomes Hocihara","325.526.072-91","F",1996-03-04 00:00:00.0000000,"AL","ALAGOAS","Maceio","Centro",12904.69,37
+667,"Fernando Yushi Mikaro","173.753.717-38","M",1992-10-07 00:00:00.0000000,"BA","BAHIA","Salvador","Centro",12437.76,31
+470,"Marlise Mertz","290.230.029-40","F",1993-12-03 00:00:00.0000000,"CE","CEARA","Fortaleza","Centro",20737.4,65
+758,"Gabriel  Garcia Fancinni","276.260.496-89","M",1990-09-15 00:00:00.0000000,"CE","CEARA","Camocim","Centro",70230.75,208
+460,"Francisco De Castro Freire","085.903.190-43","M",1996-11-16 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",28762.52,74
+2594,"Rafael Pinheiro Lima","180.874.889-39","M",1995-08-06 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",46353.12,133
+2495,"Sabrina Patrocinio","143.046.138-39","F",1992-08-30 00:00:00.0000000,"MA","MARANHAO","Sao Luis","Centro",73388.41,210
+2202,"Giovanna De Lima Silva","427.427.016-76","F",1995-02-10 00:00:00.0000000,"MT","MATO GROSSO","Cuiaba","Morada do Ouro Setor Oeste",14045.91,39
+2305,"Joana Ramos","213.136.586-98","F",1992-11-07 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",32824.13,90
+947,"Felipe Patrocinio Martin","202.405.846-78","M",1995-03-01 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",35483.4,106
+753,"Felipe  Mangone Vilhao","219.576.973-42","M",1993-07-07 00:00:00.0000000,"GO","GOIAS","Goiania","Setor Sol Nascente",29345.76,85
+1336,"Felipe  Drummond","248.236.311-92","M",2000-10-06 00:00:00.0000000,"ES","ESPIRITO SANTO","Vitoria","Centro",25414.88,71
+2211,"Lucas Kazuo","391.125.729-76","M",1991-06-07 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",7259.22,21
+1435,"Daniel Lopes De Andrade","284.319.139-98","M",2000-06-18 00:00:00.0000000,"DF","DISTRITO FEDERAL","Distrito Federal","Asa Norte",15442.34,44
+826,"Igor Vieira Marcondes","253.960.537-08","M",1990-05-28 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",35837.17,96
+438,"Josemir Morilhas Batista","273.977.830-52","M",1997-07-29 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",15955.01,49
+824,"Gabriel Luis Folli","270.921.573-96","M",1999-09-28 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",46145.57,125
+533,"Felipe Mugnaini Raffani","378.778.467-63","M",1998-10-22 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",41912.1,119
+531,"Daniel Barbosa Bastos","341.973.995-21","M",1992-09-16 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",17373.15,51
+1210,"William Dos Reis Ferreira","194.267.139-49","M",1990-08-12 00:00:00.0000000,"PR","PARANA","Curitiba","Centro",21037.38,63
+820,"Adriana Francis Trapella","341.641.999-64","F",1998-08-24 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",21349.01,63
+1596,"Matheus Rodrigues Andres","081.126.868-05","M",1997-03-12 00:00:00.0000000,"PE","PERNAMBUCO","Recife","Pina",23336.68,69
+1318,"Julia Goncalves De Araujo","414.214.783-36","F",1998-09-06 00:00:00.0000000,"PA","PARA","Belem","Condor",12289.93,39
+540,"Marcelo Binder Da Silva","051.042.294-42","M",1998-09-08 00:00:00.0000000,"PB","PARAIBA","Joao Pessoa","Centro",24440.07,76
+2462,"Marina Almeida","375.956.221-85","F",1993-01-09 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",77033.76,226
+910,"Andre Mendonca Ferreira Da Sil","282.450.989-46","M",1993-05-02 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",76524.81,213
+2267,"Valdeti De Abreu Lima","099.776.678-58","F",1994-06-15 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",20944.74,66
+812,"Paulo Moreno Fazio","082.909.877-64","M",1997-01-14 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",20984.83,64
+325,"Luciano Giometti Bandieri","228.930.183-23","M",1992-10-06 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",16740.74,44
+34,"Sergio Vasconcelos","250.559.325-84","M",1991-05-15 00:00:00.0000000,"RJ","RIO DE JANEIRO","Rio de Janeiro","Centro",10856.58,33
+709,"Breno Luis Martinni","396.929.261-39","M",2000-10-02 00:00:00.0000000,"RN","RIO GRANDE DO NORTE","Natal","Alecrim",14291.24,44
+413,"Fernando Botelho De Almeida","236.934.825-92","M",1992-10-09 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",26600.56,75
+801,"Ronaldo  Marques Pichinni","222.733.312-15","M",1993-09-25 00:00:00.0000000,"RS","RIO GRANDE DO SUL","Porto Alegre","Centro",20650.25,62
+429,"Aline Aparecida Alves","191.866.979-27","F",1992-11-13 00:00:00.0000000,"PI","PIAUI","Teresina","Centro",23025.61,70
+2055,"Daniel William Marcondes","150.998.600-27","M",1995-10-19 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",34508.59,111
+206,"Vagner Coelho De Andrade","384.851.761-30","M",1997-08-16 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",12052.23,34
+2631,"Juan Marques","104.747.690-62","M",1993-04-03 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",14185.37,41
+2532,"Sarah Morelli","079.472.944-08","F",1997-12-18 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",73907,214
+1465,"Julia Nakashima","265.774.412-29","F",1991-05-28 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",68458.6,202
+786,"Michael Menezes Da Costa","200.154.231-28","M",1995-08-22 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",58731.73,180
+883,"Wallace Ramos Sousa ","151.552.391-46","M",1994-02-15 00:00:00.0000000,"SP","SAO PAULO","Sao Paulo","Centro",63247.59,188
+695,"Rafael Carmo Vasconcelos","285.916.546-62","M",1994-02-05 00:00:00.0000000,"SC","SANTA CATARINA","Florianopolis","Centro",19116.82,63
+410,"Eumar Dias De Assis","353.059.821-07","M",1990-02-16 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",46233.63,131
+1283,"Caio Yukio Oka","392.116.249-69","M",1999-02-12 00:00:00.0000000,"RO","RONDONIA","Porto Velho","Centro",45832.9,139
+1475,"Sergio Xavier Paiva","330.300.894-65","M",1997-05-11 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",36748.71,103
+408,"Diego Oliveira Da Silva","352.251.871-82","M",1998-01-23 00:00:00.0000000,"RR","RORAIMA","Boa Vista","Centro",28988.3,83
+294,"Sidney Naoziro Uchida","269.193.551-12","M",1994-01-14 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",23342.08,63
+2429,"Leonardo Dias De Araujo Alves","325.464.287-00","M",1990-04-26 00:00:00.0000000,"SE","SERGIPE","Aracaju","Centro",36876.02,115
