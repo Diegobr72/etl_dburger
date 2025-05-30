@@ -1,0 +1,9 @@
+{
+	"name": "dfluciana",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "08a8fb64-18af-402a-b28c-8cedb91d2dd3",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
