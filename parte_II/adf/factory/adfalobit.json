@@ -1,0 +1,9 @@
+{
+	"name": "adfalobit",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a270ced1-1e52-46f1-83f6-d196b0703831",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
