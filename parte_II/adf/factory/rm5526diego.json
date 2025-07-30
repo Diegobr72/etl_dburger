@@ -1,0 +1,9 @@
+{
+	"name": "rm5526diego",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aa52c253-43c6-4239-b879-f7c5090b40bb",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
